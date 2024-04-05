@@ -1,0 +1,59 @@
+TO DO:
+
+modulo de posts relacionados por tags, categorias, o hijos
+deshabilitar REST API por default
+
+v 3.2.0
+    Nueva forma de registrar los recursos desde custom/config/assets.php
+    Soporte para parametro $args de wp_register_script() con strategy=>'async|defer' (desde Wordpress 6.3)
+        https://make.wordpress.org/core/2023/07/14/registering-scripts-with-async-and-defer-attributes-in-wordpress-6-3/
+    Actualización de Assets: Vue 3, Axios, Bootstrap, Fontawesome 
+    
+v 3.1.0
+    Adminsettings para gestionar cosas del administrador
+    
+v 3.0.2
+	Actualizado a Bootstrap 5.1.3
+    Agregado Plugin SVG
+    Agregado plugin WP-Optimize - Clean, Compress, Cache
+    Eliminados plugins de navegación Responsive Menu y WP-Cache
+
+v 3.0.1
+	Modificado Starterpoint\Shortcodes->fn_grilla
+	
+v 3.0.0
+    * Se eliminó plugin BreadcrumbNavXT instalado por default
+    * Nuevo plugin wp-scssphp para procesar los estilos Sass online. No requiere usar Gulp ni /node_modules
+    * jQuery, Bootstrap y Fontawesome incorporados como assets desde CDN a los recursos iniciales, en core/Assets (se pueden desregistrar)
+    * Actualización de script Bootstrap a v4.5.3 con bundle de popper incluido
+    * Actualización de Vue a v2.5.16 y separación de versión producción y desarrollo
+    * Actualización de Axios a v0.21.1
+    * Se renombró el dir "includes" por "custom"
+    * core/Assets hereda de Base.
+    * Se elimina el uso de la variable "global" $my_theme.
+    * Nuevo método add en core/Sidebars
+    * Nuevo métodos add en core/Shortcodes
+    * Nuevo método add y delete en core/Taxonomies y nueva estructura de datos
+    * Shortcodes iniciales ([sidebar_content id="xxx"])
+    * Shortcodes iniciales ([grilla file="archivo de template_parts"])
+
+
+
+v 2.0.0
+    * Nueva metodología de registrar recursos que permite agregar extras antes del global.
+    * Los recursos de los Shortcodes se agregan solo si se detectan en una página
+    * Actualizado plugin option-tree. Si el theme se declara como child, usarlo como plugin en lugar de modo integrado.
+    * Nuevo soporte para registrar taxonomies.
+    * Se mueve functions.php a core/ y se modifica Main para que se pueda intervenir en las acciones de setup sin modificar la clase
+    * Menu mobile tipo acordeon con plugin jQuery Vertical Accordion Menu dentro de panel lateral Sidr
+    * Los estilos de base.scss se movieron a starter.scss
+    * Kirki framework para usar la Customizer API en Apariencia>Personalizar
+
+
+
+v 1.1.0
+    * Se renombró global $theme a $my_theme
+
+v 1.0.1
+    * Se agregó Starterpoint\Utils->hex2rgba($hexcolor, $transparency=false);
+

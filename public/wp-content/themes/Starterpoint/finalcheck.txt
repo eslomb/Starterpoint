@@ -1,0 +1,9 @@
+Eliminar Divi key
+Destildar disuadir buscadores 
+Eliminar plugins no usados
+Cambiar destinatario de form contacto
+WPSCSS compressed file
+Versión de template 1.0.0
+Backup de base
+Optimización de tablas
+Activar cache

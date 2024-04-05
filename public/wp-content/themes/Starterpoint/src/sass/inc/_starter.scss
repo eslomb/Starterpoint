@@ -1,0 +1,58 @@
+a:focus {
+    outline: 0;
+}
+
+#scroll-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 38px;
+    color: #fff;
+
+    a {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        display: block;
+        padding: 10px 16px 14px;
+        color: inherit;
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            background: rgba(0, 0, 0, 1);
+        }
+    }
+}
+
+
+.social {
+    a{
+        margin-right: 10px;
+    
+        &.fa {
+            font-size: 18px;
+            color: inherit;
+            padding: 5px;
+        }
+    }
+}
+
+.datos a.fa {
+    font-size: 18px;
+    color: inherit;
+    padding: 5px;
+    span{
+        margin-right: 10px;
+    }
+}
+
+header#cabecera{
+    nav{
+        ul{
+            li{
+                padding: 10px;
+            }
+        }
+    }
+}

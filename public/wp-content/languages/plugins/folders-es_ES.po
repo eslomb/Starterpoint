@@ -1,0 +1,357 @@
+# Translation of Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-31 10:21:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.8\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Folders &#8211; Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager - Stable (latest release)\n"
+
+#: includes/folders.class.php:1251
+msgid "Unassigned"
+msgstr "Sin asignar"
+
+#: includes/folders.class.php:953 includes/folders.class.php:5480
+#: templates/admin/admin-content.php:491
+msgid "Move to Folder"
+msgstr "Mover a la carpeta"
+
+#: templates/admin/help.php:77
+msgid "Your message is sent successfully."
+msgstr "Tu mensaje se ha enviado correctamente."
+
+#: templates/admin/help.php:73
+msgid "Done!"
+msgstr "¡Hecho!"
+
+#: templates/admin/help.php:54
+msgid "Sending Request..."
+msgstr "Enviando solicitud..."
+
+#: templates/admin/help.php:30 templates/admin/help.php:67
+msgid "Chat"
+msgstr "Chat"
+
+#: templates/admin/help.php:27
+msgid "How can I help you?"
+msgstr "¿En qué puedo ayudarte?"
+
+#: templates/admin/help.php:22
+msgid "Hello! Are you experiencing any problems with Folders? Please let me know :)"
+msgstr "¡Hola! ¿Tienes algún problema con «Folders»? Por favor, házmelo saber :)"
+
+#: templates/admin/admin-content.php:285 templates/admin/admin-content.php:314
+#: templates/admin/admin-content.php:355 templates/admin/admin-content.php:391
+#: templates/admin/admin-content.php:418 templates/admin/admin-content.php:490
+#: templates/admin/folder-deactivate-form.php:45
+#: templates/admin/general-settings.php:1487
+#: templates/admin/general-settings.php:1542
+#: templates/admin/general-settings.php:1557
+#: templates/admin/general-settings.php:1583
+#: templates/admin/general-settings.php:1674
+#: templates/admin/media-replace.php:191
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/admin/folder-deactivate-form.php:36
+msgid "Anonymous feedback"
+msgstr "Respuesta anónima"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid "Click here"
+msgstr "Haz clic aquí"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid "Having any problem with the Folders plugins?"
+msgstr "¿Tienes algún problema con el plugin «Folders»?"
+
+#: templates/admin/folder-deactivate-form.php:31
+msgid "Your comment"
+msgstr "Tu comentario"
+
+#: templates/admin/folder-deactivate-form.php:27
+msgid "Email address"
+msgstr "Dirección de correo electrónico"
+
+#: templates/admin/folder-deactivate-form.php:25
+msgid "Your feedback will help us improve the product, please tell us why did you decide to deactivate Folders :)"
+msgstr "Tus comentarios nos ayudarán a mejorar el producto, por favor, dinos por qué decidiste desactivar «Folders» :)"
+
+#: templates/admin/folder-deactivate-form.php:22
+msgid "Quick feedback about Folders"
+msgstr "Comentarios rápidos acerca de «Folders»"
+
+#: templates/admin/upgrade-table.php:558
+msgid "The plugin will always keep working even if you don't renew your license"
+msgstr "El plugin siempre seguirá funcionando incluso si no renuevas tu licencia"
+
+#: templates/admin/upgrade-table.php:554
+msgid "30 days money back guaranteed"
+msgstr "30 días de garantía de devolución del dinero"
+
+#: templates/admin/general-settings.php:608
+msgid "Default folder: "
+msgstr "Carpeta por defecto: "
+
+#: includes/media.replace.php:1096 includes/media.replace.php:1114
+#: includes/media.replace.php:1152 includes/media.replace.php:1184
+#: templates/admin/admin-content.php:356 templates/admin/admin-content.php:392
+#: templates/admin/admin-content.php:419 templates/admin/admin-content.php:537
+#: templates/admin/folder-user-settings.php:30
+#: templates/admin/folder-user-settings.php:37
+#: templates/admin/folder-user-settings.php:57
+#: templates/admin/folder-user-settings.php:64
+#: templates/admin/folder-user-settings.php:89
+#: templates/admin/folder-user-settings.php:216
+#: templates/admin/general-settings.php:574
+#: templates/admin/general-settings.php:638
+#: templates/admin/general-settings.php:656
+#: templates/admin/general-settings.php:689
+#: templates/admin/general-settings.php:749
+#: templates/admin/general-settings.php:769
+#: templates/admin/general-settings.php:788
+#: templates/admin/general-settings.php:863
+#: templates/admin/general-settings.php:943
+#: templates/admin/general-settings.php:997
+#: templates/admin/general-settings.php:1021
+#: templates/admin/general-settings.php:1037
+#: templates/admin/general-settings.php:1061
+#: templates/admin/general-settings.php:1074
+#: templates/admin/general-settings.php:1098
+#: templates/admin/general-settings.php:1111
+#: templates/admin/general-settings.php:1135
+#: templates/admin/general-settings.php:1148
+#: templates/admin/general-settings.php:1172
+#: templates/admin/general-settings.php:1190
+#: templates/admin/general-settings.php:1228
+#: templates/admin/general-settings.php:1301
+#: templates/admin/media-replace.php:69 templates/admin/media-replace.php:74
+#: templates/admin/media-replace.php:185
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: includes/folders.class.php:5872 includes/folders.class.php:5873
+#: includes/folders.class.php:5886 templates/admin/general-settings.php:538
+#: templates/admin/general-settings.php:569
+msgid "Folders Settings"
+msgstr "Ajustes de «Folders»"
+
+#: includes/folders.class.php:5781
+msgid "Move selected items"
+msgstr "Mover los elementos seleccionados"
+
+#: includes/folders.class.php:5525 templates/admin/help.php:43
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: includes/folders.class.php:5524
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/folders.class.php:4758 includes/tree.class.php:169
+msgid "Parent Folder"
+msgstr "Carpeta principal"
+
+#: includes/folders.class.php:4757
+msgid "Search Folders"
+msgstr "Buscar carpetas"
+
+#: includes/folders.class.php:4755
+msgid "Add folder name"
+msgstr "Añadir el nombre de la carpeta"
+
+#: includes/folders.class.php:4750 includes/folders.class.php:4762
+msgid "Folder"
+msgstr "Carpeta"
+
+#: includes/folders.class.php:4185
+msgid "Folder name already exists"
+msgstr "El nombre de la carpeta ya existe"
+
+#: includes/folders.class.php:4152
+msgid "You have not permission to add folder"
+msgstr "No tienes permiso para añadir carpetas"
+
+#: includes/folders.class.php:3656
+msgid "Unable to rename folder"
+msgstr "No ha sido posible renombrar la carpeta"
+
+#: includes/folders.class.php:3622 includes/folders.class.php:4155
+msgid "Folder name can no be empty"
+msgstr "El nombre de la carpeta no puede estar vacío"
+
+#: includes/folders.class.php:3619 includes/folders.class.php:3628
+#: includes/folders.class.php:3633
+msgid "Unable to rename folder, Your request is not valid"
+msgstr "No ha sido posible renombrar la carpeta. Tu solicitud no es válida"
+
+#: includes/folders.class.php:3537 includes/folders.class.php:3542
+msgid "Unable to delete folder, Your request is not valid"
+msgstr "No ha sido posible borrar la carpeta. Tu solicitud no es válida"
+
+#: includes/folders.class.php:3460 includes/folders.class.php:3528
+msgid "You have not permission to remove folder"
+msgstr "No tienes permiso para eliminar carpetas"
+
+#: includes/folders.class.php:3298 includes/folders.class.php:4162
+#: includes/folders.class.php:4168
+msgid "Unable to create folder, Your request is not valid"
+msgstr "No ha sido posible crear la carpeta. Tu solicitud no es válida"
+
+#: includes/folders.class.php:3217
+msgid "You have not permission to update folder order"
+msgstr "No tienes permisos para actualizar el orden de las carpetas"
+
+#: includes/folders.class.php:2859 includes/folders.class.php:2862
+#: includes/folders.class.php:3032 includes/folders.class.php:3035
+#: includes/folders.class.php:3097 includes/folders.class.php:3157
+#: includes/folders.class.php:3292 includes/folders.class.php:3348
+#: includes/folders.class.php:3616
+msgid "You have not permission to update folder"
+msgstr "No tienes permisos para actualizar carpetas"
+
+#: includes/folders.class.php:2474 templates/admin/help.php:24
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: includes/folders.class.php:2466
+msgid "Please enter your message"
+msgstr "Por favor, introduce tu mensaje."
+
+#: includes/folders.class.php:2461
+msgid "%s is required"
+msgstr "%s es necesario"
+
+#: includes/folders.class.php:2391 includes/folders.class.php:5475
+msgid "(Unassigned)"
+msgstr "(No asignado)"
+
+#: includes/folders.class.php:2390 includes/folders.class.php:4751
+#: includes/folders.class.php:5449
+msgid "All Folders"
+msgstr "Todas las carpetas"
+
+#: includes/folders.class.php:713 includes/folders.class.php:716
+#: includes/folders.class.php:793 includes/folders.class.php:796
+#: includes/folders.class.php:1291 includes/folders.class.php:1294
+#: includes/folders.class.php:1345 includes/folders.class.php:1348
+#: includes/folders.class.php:2741 includes/folders.class.php:2744
+#: includes/folders.class.php:2802 includes/folders.class.php:2805
+msgid "You have not permission to update width"
+msgstr "No tienes permisos para actualizar el ancho"
+
+#: includes/folders.class.php:1254
+msgid "+ Create a New Folder"
+msgstr "+ Crear una nueva carpeta"
+
+#: includes/folders.class.php:1243
+msgid "Select a folder (Optional)"
+msgstr "Selecciona una carpeta (opcional)"
+
+#: includes/folders.class.php:5528
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: includes/folders.class.php:5466 templates/admin/admin-content.php:226
+#: templates/admin/general-settings.php:1348
+#: templates/admin/general-settings.php:1582
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/folders.class.php:5452 templates/admin/general-settings.php:1345
+msgid "Rename"
+msgstr "Renombrar"
+
+#: includes/form.class.php:71 templates/admin/general-settings.php:1332
+msgid "New Folder"
+msgstr "Nueva carpeta"
+
+#. Author URI of the plugin
+msgid "https://premio.io/downloads/folders/"
+msgstr "https://premio.io/downloads/folders/"
+
+#. Author of the plugin
+msgid "Premio"
+msgstr "Premio"
+
+#. Plugin Name of the plugin
+#: includes/folders.class.php:347 includes/folders.class.php:4749
+#: includes/folders.class.php:4756 includes/folders.class.php:5885
+#: includes/form.class.php:57 templates/admin/general-settings.php:1329
+msgid "Folders"
+msgstr "Folders"
+
+#: includes/folders.class.php:409 includes/folders.class.php:414
+#: includes/folders.class.php:547 includes/folders.class.php:552
+#: includes/folders.class.php:590 includes/folders.class.php:596
+#: includes/folders.class.php:704 includes/folders.class.php:707
+#: includes/folders.class.php:710 includes/folders.class.php:722
+#: includes/folders.class.php:784 includes/folders.class.php:787
+#: includes/folders.class.php:790 includes/folders.class.php:1282
+#: includes/folders.class.php:1285 includes/folders.class.php:1288
+#: includes/folders.class.php:1300 includes/folders.class.php:1336
+#: includes/folders.class.php:1339 includes/folders.class.php:1342
+#: includes/folders.class.php:1354 includes/folders.class.php:1390
+#: includes/folders.class.php:1393 includes/folders.class.php:1396
+#: includes/folders.class.php:1399 includes/folders.class.php:1402
+#: includes/folders.class.php:1455 includes/folders.class.php:1458
+#: includes/folders.class.php:1461 includes/folders.class.php:1464
+#: includes/folders.class.php:1467 includes/folders.class.php:2489
+#: includes/folders.class.php:2496 includes/folders.class.php:2582
+#: includes/folders.class.php:2588 includes/folders.class.php:2735
+#: includes/folders.class.php:2738 includes/folders.class.php:2750
+#: includes/folders.class.php:2793 includes/folders.class.php:2796
+#: includes/folders.class.php:2799 includes/folders.class.php:2811
+#: includes/folders.class.php:2847 includes/folders.class.php:2850
+#: includes/folders.class.php:2853 includes/folders.class.php:2856
+#: includes/folders.class.php:2867 includes/folders.class.php:2945
+#: includes/folders.class.php:2948 includes/folders.class.php:2952
+#: includes/folders.class.php:3021 includes/folders.class.php:3024
+#: includes/folders.class.php:3027 includes/folders.class.php:3029
+#: includes/folders.class.php:3040 includes/folders.class.php:3101
+#: includes/folders.class.php:3103 includes/folders.class.php:3108
+#: includes/folders.class.php:3161 includes/folders.class.php:3163
+#: includes/folders.class.php:3168 includes/folders.class.php:3221
+#: includes/folders.class.php:3224 includes/folders.class.php:3226
+#: includes/folders.class.php:3231 includes/folders.class.php:3295
+#: includes/folders.class.php:3303 includes/folders.class.php:3351
+#: includes/folders.class.php:3354 includes/folders.class.php:3357
+#: includes/folders.class.php:3360 includes/folders.class.php:3365
+#: includes/folders.class.php:3407 includes/folders.class.php:3410
+#: includes/folders.class.php:3413 includes/folders.class.php:3418
+#: includes/folders.class.php:3463 includes/folders.class.php:3466
+#: includes/folders.class.php:3469 includes/folders.class.php:3474
+#: includes/folders.class.php:3531 includes/folders.class.php:3534
+#: includes/folders.class.php:3625 includes/folders.class.php:4150
+#: includes/folders.class.php:4158
+msgid "Your request is not valid"
+msgstr "Tu solicitud no es válida"
+
+#: includes/folders.class.php:1244
+msgid "First select the folder, and then upload the files"
+msgstr "Primero, selecciona la carpeta y, después, sube los archivos"
+
+#: templates/admin/folder-deactivate-form.php:33
+msgid " to contact our support now"
+msgstr " para contactar ahora con nuestro soporte"
+
+#: includes/folders.class.php:4754
+msgid "Add New Folder"
+msgstr "Añadir una nueva carpeta"
+
+#: includes/folders.class.php:4753
+msgid "Update Folder"
+msgstr "Actualizar la carpeta"
+
+#: includes/folders.class.php:4752
+msgid "Edit Folder"
+msgstr "Editar la carpeta"
+
+#: templates/admin/general-settings.php:605
+#: templates/admin/general-settings.php:655
+msgid "Use Folders with: "
+msgstr "Usar Folders con: "

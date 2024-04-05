@@ -1,0 +1,60 @@
+/*
+==================================
+FORMULARIO NINJA FORMS
+==================================
+*/
+.nf-form-fields-required{
+    display: none;
+}
+.nf-form-cont {
+    padding-bottom: 35px;
+    padding-top: 35px;
+
+    
+
+    @media (max-width:$sm) {
+        .one-half,
+        .three-sixths,
+        .two-fourths {
+            width: 100% !important;
+            margin: 0 !important;
+        }
+        
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+        font-family: inherit;
+        padding: 5px 10px;
+        border: 0;
+        margin-bottom: 10px;
+        background-color: #fff;
+        color: inherit;
+        width: 100%;
+        @include placeholder(black, 1rem);
+        &:focus{
+            outline: none;
+        }
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .submit-container {
+        text-align: right;
+
+        input {
+            font-size: 1.1em;
+            font-weight: 700;
+            float: right;
+            margin-left: 10px;
+            border: 0;
+            padding: 8px 24px;
+            cursor: pointer;
+            letter-spacing: 2px;
+        }
+    }    
+}

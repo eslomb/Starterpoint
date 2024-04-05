@@ -1,0 +1,16 @@
+{
+    "name": "lombardi/starterpoint",
+    "description": "Wordpress Theme",
+    "authors": [
+        {
+            "name": "Esteban Lombardi",
+            "email": "estean@lombardinet.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Starterpoint\\": "./core"
+        }
+    }
+}

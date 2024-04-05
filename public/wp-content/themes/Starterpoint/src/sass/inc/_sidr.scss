@@ -1,0 +1,109 @@
+//modificar valores
+$sidr-ancho: 320px;
+$sidr-color: #fff;
+$sidr-color-hover: #ddd;
+$sidr-bg-color: #000;
+$sidr-tamanio-flecha: 5px;
+$sidr-font-family: inherit;
+
+.sidr {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: $sidr-ancho;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: $sidr-bg-color;
+    padding-top: 20px;
+    font-family: $sidr-font-family;
+
+    p {
+        margin: 0 0 12px
+    }
+
+    &>p {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    header {
+        padding: 15px;
+
+        a {
+            color: $sidr-color;
+        }
+
+        i {
+            font-size: 32px;
+        }
+    }
+
+    ul {
+        display: block;
+        margin: 0 0 15px;
+        padding: 0;
+
+        li {
+            display: block;
+            margin: 0;
+
+            a {
+                padding: 5px 15px;
+                display: block;
+                color: $sidr-color;
+                cursor: pointer;
+
+                &:hover {
+                    color: $sidr-color-hover;
+                }
+
+
+                .dcjq-icon {
+                    display: inline-block;
+                    border-top: $sidr-tamanio-flecha solid transparent;
+                    border-bottom: $sidr-tamanio-flecha solid transparent;
+                    border-right: $sidr-tamanio-flecha solid transparent;
+                    border-left: $sidr-tamanio-flecha solid $sidr-color;
+                    vertical-align: middle;
+                    margin-left: 10px;
+                }
+
+                &.dcjq-parent.active {
+                    .dcjq-icon {
+                        margin-top: $sidr-tamanio-flecha;
+                        border-top: $sidr-tamanio-flecha solid $sidr-color;
+                        border-bottom: $sidr-tamanio-flecha solid transparent;
+                        border-right: $sidr-tamanio-flecha solid transparent;
+                        border-left: $sidr-tamanio-flecha solid transparent;
+                    }
+                }
+            }
+
+            &.current-menu-item {
+                a {
+                    color: $sidr-color-hover;
+                }
+            }
+
+            ul {
+                margin: 0;
+
+                li {
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    &.sidr-right {
+        left: auto;
+        right: -$sidr-ancho;
+    }
+
+    &.sidr-left {
+        left: -$sidr-ancho;
+        right: auto;
+    }
+}

@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 05/04/2024 21:05
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.8.1
+WORDPRESS:	6.5
+PHP INFO:	8.0.0 | SAPI: cgi-fcgi
+SERVER:		Microsoft-IIS/10.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:27 | filtered:0 | create:27
+FILTERED: []
+SQL CREATED: 20240405_starterpoint_200092604e6b72497864_20240405210325_database.sql
+SQL FILE SIZE: 814.66KB (834216)
+SQL FILE TIME: 2024-04-05 21:05:17
+SQL RUNTIME: 0.55 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  E:/Desarrollos web/wordpress/Starterpoint/public
+ARCHIVE FILE: 20240405_starterpoint_200092604e6b72497864_20240405210325_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	164.32MB
+STATS:	Dirs 1,378 | Files 8,356
+SQL ADDED: 20240405_starterpoint_200092604e6b72497864_20240405210325_database.sql
+ZipArchive Object
+(
+    [lastId] => 9733
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 9734
+    [filename] => E:\Desarrollos web\wordpress\Starterpoint\public\wp-content\backups-dup-lite\tmp\20240405_starterpoint_200092604e6b72497864_20240405210325_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 9733
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 56MB
+ARCHIVE RUNTIME: 11.54 sec.
+MEMORY STACK: 8MB
+building installer
+PRUEBA DE CONSISTENCIA DEL ARCHIVO: SUPERADA
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 814.66KB
+INSTALLER FILE: 73.48KB
+ARCHIVE FILE: 57.92MB 
+RECUENTO ARCHIVOS/DIRECTORIOS ESPERADOS: 9,734
+RECUENTO ARCHIVOS/DIRECTORIOS ACTUALES: 9,733
+PRUEBA DE CONSISTENCIA DEL ARCHIVO: Superado
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 13.22 sec.
+PEAK PHP MEMORY USED: 12MB
+DONE PROCESSING => 20240405_starterpoint 05/04/2024 21:05
+

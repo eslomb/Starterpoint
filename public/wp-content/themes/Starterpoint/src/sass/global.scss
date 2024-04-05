@@ -1,0 +1,57 @@
+@import "inc/mixins";
+@import "inc/sidr";
+@import "inc/starter";
+// @import "woocommerce";
+// @import "./node_modules/animate.css/animate";
+
+// VARIABLES --------------------------------------------
+// media queries breakpoints
+$md: 1200px-1px;
+$sm: 992px-1px;
+$xs: 768px-1px;
+
+// colores
+$color-fondo: #fff;
+$color-cuerpo: #646464;
+$colorA: #8ed3d0; // verde claro
+$colorB: #405364; // azul oscuro
+$colorC: #fa4d5e; // rosa
+$color-links: $colorB;
+$color-hover: $colorA;
+
+// otros
+$font: "Roboto";
+$images-path: "../images/";
+
+// bootstrap
+
+
+
+/*
+==================================
+ESTILOS GLOBALES
+==================================
+*/
+body{
+	font-family: $font;
+}
+a{
+	&:hover{
+		text-decoration: none;			
+	}
+}
+[v-cloak]>* {
+	display: none
+}
+
+
+
+@import "modulos/header";
+@import "modulos/nav";
+@import "modulos/footer";
+@import "modulos/home";
+@import "modulos/page";
+// @import "modulos/cf7";
+// @import "modulos/ninja_forms";
+// @import "modulos/otros";
+// @import "modulos/responsive";
