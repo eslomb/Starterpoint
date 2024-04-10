@@ -3,7 +3,7 @@ namespace Starterpoint;
 
 
 class Main{
-    private $core_version = '3.2.0';
+    private $core_version = '3.2.1';
     
     //instancias de Classes
     public $options;

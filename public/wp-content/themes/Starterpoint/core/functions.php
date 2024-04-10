@@ -36,20 +36,21 @@ require($theme_directory . 'custom/config/theme-options.php'); // opciones en ar
 
 require($theme_directory . 'custom/filters.php');
 
+// CUSTOM CONFIGS.
+
+require($theme_directory . 'custom/config/assets.php');
+require($theme_directory . 'custom/config/menus.php');
+require($theme_directory . 'custom/config/sidebars.php');
+require($theme_directory . 'custom/config/shortcodes.php');
+require($theme_directory . 'custom/config/cpt.php');
+require($theme_directory . 'custom/config/taxonomies.php');
+require($theme_directory . 'custom/config/customizer.php');
+require($theme_directory . 'custom/config/admin-settings.php');
+if (class_exists( 'WooCommerce' )){require($theme_directory . 'custom/config/woocommerce.php');}
+
+add_action('init', array($starterpoint, 'init'));
+add_action('init', 'register_custom_assets');	
+add_action('wp_enqueue_scripts', 'enqueue_custom_assets');
+
 if(!is_admin()){
-	// CUSTOM CONFIGS.
-
-	require($theme_directory . 'custom/config/assets.php');
-	require($theme_directory . 'custom/config/menus.php');
-	require($theme_directory . 'custom/config/sidebars.php');
-	require($theme_directory . 'custom/config/shortcodes.php');
-	require($theme_directory . 'custom/config/cpt.php');
-	require($theme_directory . 'custom/config/taxonomies.php');
-	require($theme_directory . 'custom/config/customizer.php');
-	require($theme_directory . 'custom/config/admin-settings.php');
-	if (class_exists( 'WooCommerce' )){require($theme_directory . 'custom/config/woocommerce.php');}
-
-	add_action('init', array($starterpoint, 'init'));
-	add_action('init', 'register_custom_assets');	
-	add_action('wp_enqueue_scripts', 'enqueue_custom_assets');
 }

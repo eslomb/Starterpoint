@@ -3,6 +3,11 @@ TO DO:
 modulo de posts relacionados por tags, categorias, o hijos
 deshabilitar REST API por default
 
+
+
+v 3.2.1
+    modificacion de functions.php para cargar los archivos de custom/config.
+
 v 3.2.0
     Nueva forma de registrar los recursos desde custom/config/assets.php
     Soporte para parametro $args de wp_register_script() con strategy=>'async|defer' (desde Wordpress 6.3)
