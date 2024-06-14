@@ -2147,7 +2147,7 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 				'type'              => 'option',
 				'capability'        => 'edit_theme_options',
 				'transport'         => 'postMessage',
-				'sanitize_callback' => 'et_sanitize_font_style',
+				'sanitize_callback' => 'et_divi_global_font_style',
 			)
 		);
 
@@ -2159,7 +2159,7 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 					'label'   => esc_html__( 'Header Font Style', 'Divi' ),
 					'section' => 'et_divi_general_typography',
 					'type'    => 'font_style',
-					'choices' => et_divi_font_style_choices(),
+					'choices' => et_divi_global_font_style_choices(),
 				)
 			)
 		);
@@ -2246,6 +2246,54 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 		);
 
 		$wp_customize->add_setting(
+			'et_divi[heading_font_weight]',
+			array(
+				'default'           => '500',
+				'type'              => 'option',
+				'capability'        => 'edit_theme_options',
+				'transport'         => 'postMessage',
+				'sanitize_callback' => 'et_sanitize_global_font_weight',
+			)
+		);
+
+		$wp_customize->add_control(
+			new ET_Divi_Custom_Select_Option(
+				$wp_customize,
+				'et_divi[heading_font_weight]',
+				array(
+					'label'    => esc_html__( 'Header Font Weight', 'Divi' ),
+					'section'  => 'et_divi_general_typography',
+					'settings' => 'et_divi[heading_font_weight]',
+					'type'     => 'select',
+					'choices'  => et_builder_get_font_weight_list(),
+				)
+			)
+		);
+
+		$wp_customize->add_setting(
+			'et_divi[header_color]',
+			array(
+				'default'           => '#666666',
+				'type'              => 'option',
+				'capability'        => 'edit_theme_options',
+				'transport'         => 'postMessage',
+				'sanitize_callback' => 'et_sanitize_alpha_color',
+			)
+		);
+
+		$wp_customize->add_control(
+			new ET_Divi_Customize_Color_Alpha_Control(
+				$wp_customize,
+				'et_divi[header_color]',
+				array(
+					'label'    => esc_html__( 'Heading Text Color', 'Divi' ),
+					'section'  => 'et_divi_general_typography',
+					'settings' => 'et_divi[header_color]',
+				)
+			)
+		);
+
+		$wp_customize->add_setting(
 			'et_divi[body_font]',
 			array(
 				'default'           => 'none',
@@ -2271,24 +2319,26 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 		);
 
 		$wp_customize->add_setting(
-			'et_divi[link_color]',
+			'et_divi[body_font_weight]',
 			array(
-				'default'           => et_get_option( 'accent_color', '#2ea3f2' ),
+				'default'           => '500',
 				'type'              => 'option',
 				'capability'        => 'edit_theme_options',
 				'transport'         => 'postMessage',
-				'sanitize_callback' => 'et_sanitize_alpha_color',
+				'sanitize_callback' => 'et_sanitize_global_font_weight',
 			)
 		);
 
 		$wp_customize->add_control(
-			new ET_Divi_Customize_Color_Alpha_Control(
+			new ET_Divi_Custom_Select_Option(
 				$wp_customize,
-				'et_divi[link_color]',
+				'et_divi[body_font_weight]',
 				array(
-					'label'    => esc_html__( 'Body Link Color', 'Divi' ),
+					'label'    => esc_html__( 'Body Font Weight', 'Divi' ),
 					'section'  => 'et_divi_general_typography',
-					'settings' => 'et_divi[link_color]',
+					'settings' => 'et_divi[body_font_weight]',
+					'type'     => 'select',
+					'choices'  => et_builder_get_font_weight_list(),
 				)
 			)
 		);
@@ -2316,10 +2366,11 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 			)
 		);
 
+
 		$wp_customize->add_setting(
-			'et_divi[header_color]',
+			'et_divi[link_color]',
 			array(
-				'default'           => '#666666',
+				'default'           => et_get_option( 'accent_color', '#2ea3f2' ),
 				'type'              => 'option',
 				'capability'        => 'edit_theme_options',
 				'transport'         => 'postMessage',
@@ -2330,11 +2381,11 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 		$wp_customize->add_control(
 			new ET_Divi_Customize_Color_Alpha_Control(
 				$wp_customize,
-				'et_divi[header_color]',
+				'et_divi[link_color]',
 				array(
-					'label'    => esc_html__( 'Header Text Color', 'Divi' ),
+					'label'    => esc_html__( 'Body Link Color', 'Divi' ),
 					'section'  => 'et_divi_general_typography',
-					'settings' => 'et_divi[header_color]',
+					'settings' => 'et_divi[link_color]',
 				)
 			)
 		);
@@ -2350,14 +2401,37 @@ if ( ! function_exists( 'et_divi_customizer_theme_settings' ) ) :
 			)
 		);
 
+		$wp_customize->add_setting(
+			'et_divi[secondary_accent_color]',
+			array(
+				'default'           => '#8800FF',
+				'type'              => 'option',
+				'capability'        => 'edit_theme_options',
+				'transport'         => 'postMessage',
+				'sanitize_callback' => 'et_sanitize_alpha_color',
+			)
+		);
+
 		$wp_customize->add_control(
 			new ET_Divi_Customize_Color_Alpha_Control(
 				$wp_customize,
 				'et_divi[accent_color]',
 				array(
-					'label'    => esc_html__( 'Theme Accent Color', 'Divi' ),
+					'label'    => esc_html__( 'Primary Color', 'Divi' ),
 					'section'  => 'et_divi_general_layout',
 					'settings' => 'et_divi[accent_color]',
+				)
+			)
+		);
+
+		$wp_customize->add_control(
+			new ET_Divi_Customize_Color_Alpha_Control(
+				$wp_customize,
+				'et_divi[secondary_accent_color]',
+				array(
+					'label'    => esc_html__( 'Secondary Color', 'Divi' ),
+					'section'  => 'et_divi_general_layout',
+					'settings' => 'et_divi[secondary_accent_color]',
 				)
 			)
 		);
@@ -4958,9 +5032,26 @@ add_action( 'et_customizer_footer_preview', 'et_load_social_icons' );
 
 function et_divi_customize_preview_js() {
 	$theme_version = et_get_theme_version();
+
+	$custom_user_fonts = et_builder_get_custom_fonts();
+	$use_google_fonts  = et_core_use_google_fonts();
+	$websafe_fonts     = et_builder_get_websafe_fonts();
+	$google_fonts      = $websafe_fonts;
+	$supported_options = et_builder_get_font_weight_list();
+
+	if ( $use_google_fonts ) {
+		$google_fonts = array_merge( $websafe_fonts, et_builder_get_google_fonts() );
+		ksort( $google_fonts );
+	}
+
+	$google_fonts = array_merge( array( 'Default' => array() ), $google_fonts );
+
 	wp_enqueue_script( 'divi-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), $theme_version, true );
 	wp_localize_script( 'divi-customizer', 'et_main_customizer_data', array(
 		'original_footer_credits' => et_get_original_footer_credits(),
+		'google_fonts'            => $google_fonts,
+		'custom_fonts'            => $custom_user_fonts,
+		'supported_options'       => $supported_options,
 	) );
 }
 add_action( 'customize_preview_init', 'et_divi_customize_preview_js' );
@@ -5135,6 +5226,37 @@ if ( class_exists( 'WP_Customize_Control' ) ) {
 		<?php
 		}
 	}
+
+	// phpcs:disable -- Legacy code standards
+	/**
+	 * Custom Select option which supports data attributes for the <option> tags
+	 */
+	class ET_Divi_Custom_Select_Option extends WP_Customize_Control {
+		public $type = 'select';
+
+		public function render_content() {
+		?>
+		<label>
+			<?php if ( ! empty( $this->label ) ) : ?>
+				<span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
+			<?php endif;
+			if ( ! empty( $this->description ) ) : ?>
+				<span class="description customize-control-description"><?php echo esc_html( $this->description ); ?></span>
+			<?php endif; ?>
+			<div class="et-divi-select-wrapper">
+				<select <?php $this->link(); ?>>
+					<?php
+					foreach ( $this->choices as $value => $label ) {
+						echo '<option value="' . esc_attr( $value ) . '"' . selected( $this->value(), $value, false ) . '>' . esc_html( $label ) . '</option>';
+					}
+					?>
+				</select>
+			</div>
+		</label>
+		<?php
+		}
+	}
+	// phpcs:enable
 
 	/**
 	 * Color picker with alpha color support for Customizer
@@ -8233,7 +8355,7 @@ function et_add_divi_menu() {
 	$core_page = add_menu_page( 'Divi', 'Divi', 'edit_theme_options', 'et_divi_options', 'et_build_epanel' );
 
 	// Add Theme Options menu only if it's enabled for current user
-	if ( et_pb_is_allowed( 'theme_options' ) ) {
+	if ( et_pb_is_allowed( 'edit_theme_options' ) ) {
 
 		if ( isset( $_GET['page'] ) && 'et_divi_options' === $_GET['page'] && isset( $_POST['action'] ) ) {
 			if (
@@ -8245,19 +8367,19 @@ function et_add_divi_menu() {
 			}
 		}
 
-		add_submenu_page( 'et_divi_options', esc_html__( 'Theme Options', 'Divi' ), esc_html__( 'Theme Options', 'Divi' ), 'manage_options', 'et_divi_options' );
+		add_submenu_page( 'et_divi_options', esc_html__( 'Theme Options', 'Divi' ), esc_html__( 'Theme Options', 'Divi' ), 'edit_theme_options', 'et_divi_options' );
 	}
 
 	et_theme_builder_add_admin_page( 'et_divi_options' );
 
 	// Add Theme Customizer menu only if it's enabled for current user
 	if ( et_pb_is_allowed( 'theme_customizer' ) ) {
-		add_submenu_page( 'et_divi_options', esc_html__( 'Theme Customizer', 'Divi' ), esc_html__( 'Theme Customizer', 'Divi' ), 'manage_options', 'customize.php?et_customizer_option_set=theme' );
+		add_submenu_page( 'et_divi_options', esc_html__( 'Theme Customizer', 'Divi' ), esc_html__( 'Theme Customizer', 'Divi' ), 'edit_theme_options', 'customize.php?et_customizer_option_set=theme' );
 	}
 	add_submenu_page( 'et_divi_options', esc_html__( 'Role Editor', 'Divi' ), esc_html__( 'Role Editor', 'Divi' ), 'manage_options', 'et_divi_role_editor', 'et_pb_display_role_editor' );
 	// Add Divi Library menu only if it's enabled for current user
-	if ( et_pb_is_allowed( 'divi_library' ) ) {
-		add_submenu_page( 'et_divi_options', esc_html__( 'Divi Library', 'Divi' ), esc_html__( 'Divi Library', 'Divi' ), 'manage_options', 'edit.php?post_type=et_pb_layout' );
+	if ( et_pb_is_allowed( 'divi_library' ) && current_user_can( 'export' ) ) {
+		add_submenu_page( 'et_divi_options', esc_html__( 'Divi Library', 'Divi' ), esc_html__( 'Divi Library', 'Divi' ), 'edit_theme_options', 'edit.php?post_type=et_pb_layout' );
 	}
 
 	add_action( "load-{$core_page}", 'et_pb_check_options_access' ); // load function to check the permissions of current user
@@ -8428,6 +8550,9 @@ add_filter( 'et_gb_gallery_to_shortcode', 'et_divi_gb_gallery_to_shortcode' );
 function et_divi_register_customizer_portability() {
 	global $options;
 
+	// get all the roles that can edit theme options.
+	$applicability_roles = et_core_get_roles_by_capabilities( [ 'edit_theme_options' ] );
+
 	// Make sure the Portability is loaded.
 	et_core_load_component( 'portability' );
 
@@ -8445,12 +8570,13 @@ function et_divi_register_customizer_portability() {
 
 	// Register the portability.
 	et_core_portability_register( 'et_divi_mods', array(
-		'title'   => esc_html__( 'Import & Export Customizer', 'Divi' ),
-		'name'    => esc_html__( 'Divi Customizer Settings', 'Divi' ),
-		'type'    => 'options',
-		'target'  => 'et_divi',
-		'exclude' => $exclude,
-		'view'    => is_customize_preview(),
+		'title'         => esc_html__( 'Import & Export Customizer', 'Divi' ),
+		'name'          => esc_html__( 'Divi Customizer Settings', 'Divi' ),
+		'type'          => 'options',
+		'target'        => 'et_divi',
+		'exclude'       => $exclude,
+		'view'          => is_customize_preview(),
+		'applicability' => $applicability_roles,
 	) );
 }
 add_action( 'admin_init', 'et_divi_register_customizer_portability' );

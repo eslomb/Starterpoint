@@ -295,7 +295,7 @@ class ET_Core_Portability {
 
 		if ( ! empty( $import['global_colors'] ) ) {
 			$this->import_global_colors( $import['global_colors'] );
-			$success['globalColors'] = et_builder_get_all_global_colors();
+			$success['globalColors'] = et_builder_get_all_global_colors( true );
 		}
 
 		return $success;
@@ -757,7 +757,7 @@ class ET_Core_Portability {
 			);
 
 			if ( ! empty( $post_title ) ) {
-				$args['post_title'] = current_user_can( 'unfiltered_html' ) ? $post_title : wp_kses( $post_title );
+				$args['post_title'] = current_user_can( 'unfiltered_html' ) ? $post_title : wp_kses( $post_title, 'entities' );
 			}
 
 			$post_id = et_theme_builder_insert_layout( $args );
@@ -1223,10 +1223,17 @@ class ET_Core_Portability {
 	 * @return void
 	 */
 	public function import_global_colors( $incoming_global_colors ) {
-		$global_colors = array();
+		$excluded_colors = array( 'gcid-primary-color', 'gcid-secondary-color', 'gcid-heading-color', 'gcid-body-color' );
+		$global_colors   = array();
 
 		foreach ( $incoming_global_colors as $incoming_gcolor ) {
 			$key                   = et_()->sanitize_text_fields( $incoming_gcolor[0] );
+
+			// Skip excluded colors.
+			if ( in_array( $key, $excluded_colors, true ) ) {
+				continue;
+			}
+
 			$global_colors[ $key ] = et_()->sanitize_text_fields( $incoming_gcolor[1] );
 		}
 
@@ -2209,6 +2216,10 @@ class ET_Core_Portability {
 		}
 
 		foreach ( $data as $key => $value ) {
+			if ( empty( $value ) ) {
+				continue;
+			}
+
 			if ( is_array( $value ) ) {
 				$data[$key] = $this->validate( $value, $fields_validation );
 			} else {
