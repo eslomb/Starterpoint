@@ -2,14 +2,104 @@
 # This file is distributed under the same license as the Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-25 10:49:13+0000\n"
+"PO-Revision-Date: 2024-12-24 12:03:57+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/4.0.0\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Solid Security – Password, Two Factor Authentication, and Brute Force Protection - Stable (latest release)\n"
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:178
+msgid "The selected users will be <b>prompted</b> to configure a Two-Factor method the next time they log in."
+msgstr "A los usuarios seleccionados se les <b>animará</b> a que configuren el método de doble factor la próxima vez que accedan."
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:175
+msgid "The selected users will be required to configure a Two-Factor method the next time they log in."
+msgstr "Los usuarios seleccionados deberán configurar un método de doble factor la próxima vez que accedan."
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:170
+msgid "Let’s add an additional step when logging in"
+msgstr "Añadamos un paso adicional al acceder"
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:103
+msgid "Enabling the recommended features will prompt users who do not have a strong password, or are using a previously compromised password, to choose a new one the next time they log in."
+msgstr "La activación de las características recomendadas pedirá a los usuarios que no tengan una contraseña segura, o que estén utilizando una contraseña previamente comprometida, que elijan una nueva la próxima vez que se conecten."
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:99
+msgid "Hackers love guessable passwords; make them hate yours"
+msgstr "A los hackers les encantan las contraseñas fáciles de adivinar; haz que odien la tuya"
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:44
+msgid "The built-in Solid Security firewall stops automated password-guessing attacks by temporarily blocking them when you enable Local Brute Force. Layer in additional protection by enabling Network Brute Force. Join with other SolidWP-protected sites, combining intelligence to combat sophisticated attackers."
+msgstr "El cortafuegos integrado de Solid Security detiene los ataques automatizados de adivinación de contraseñas bloqueándolos temporalmente cuando activa la fuerza bruta local. Añade protección adicional activando la fuerza bruta de red. Únete a otros sitios protegidos por SolidWP, combinando inteligencia para combatir atacantes sofisticados."
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:40
+msgid "Brute Force protection is the first brick in your firewall"
+msgstr "La protección contra la fuerza bruta es el primer ladrillo de tu cortafuegos"
+
+#: module-strings.php:251
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/scan-site/enable-scheduling.js:28
+#: dist/pages/settings.js:1
+msgid "Scheduled Site Scan"
+msgstr "Exploración del sitio programada"
+
+#: core/lib/site-types/Type/Non_Profit.php:52
+msgid "Before we configure Solid Security, let’s scan your non-profit website for vulnerabilities…"
+msgstr "Antes de configurar Solid Security, analicemos tu sitio web con fines no lucrativos en busca de vulnerabilidades..."
+
+#: core/lib/site-types/Type/Network.php:53
+msgid "Before we configure Solid Security, let’s scan your network for vulnerabilities…"
+msgstr "Antes de configurar Solid Security, analicemos tu red en busca de vulnerabilidades..."
+
+#: core/lib/site-types/Type/Ecommerce.php:53
+msgid "Before we configure Solid Security, let’s scan your store for vulnerabilities…"
+msgstr "Antes de configurar Solid Security, analicemos tu tienda en busca de vulnerabilidades..."
+
+#: core/lib/site-types/Question/Site_Scan_Question.php:17
+msgid "Scanning your website helps you better understand your security situation. Having more context around your site’s security is helpful to know for your initial setup."
+msgstr "Explorar tu sitio web te ayuda a comprender mejor tu situación de seguridad. Tener más contexto sobre la seguridad de tu sitio es útil para tu configuración inicial."
+
+#: core/lib/site-types/Question/Site_Scan_Question.php:13
+msgid "Before we configure Solid Security, let’s scan your site for vulnerabilities…"
+msgstr "Antes de configurar Solid Security, analicemos tu sitio en busca de vulnerabilidades..."
+
+#: core/modules/site-scanner/class-itsec-site-scanner.php:398
+msgid "Patched Vulnerabilities"
+msgstr "Vulnerabilidades parcheadas"
+
+#: core/modules/site-scanner/class-itsec-site-scanner.php:390
+msgid "Active Vulnerabilities"
+msgstr "Vulneravilidades activas"
+
+#: core/modules/firewall/Firewall.php:70
+msgid "User Firewall Rules"
+msgstr "Reglas de cortafuegos del usuario"
+
+#: core/modules/firewall/Firewall.php:62
+msgid "Patchstack Firewall Rules"
+msgstr "Reglas de cortafuegos de Patchstack"
+
+#: core/modules/core/class-itsec-core-admin.php:193
+msgid ""
+"Hi %s, SolidWP is dedicated to delivering top-notch services, and your input helps us deliver on that promise.\n"
+"\t\t\t\t By opting into our feedback program, you help enhance the Solid Security experience for yourself and all of our users.\n"
+"\t\t\t\t When you opt in, you allow us to access certain data related to how you use our products, which we use responsibly to tailor our products to your needs.\n"
+"\t\t\t\t You will additionally receive updates, important product and marketing information, and exclusive offers via email. You may unsubscribe at any time.\n"
+"\t\t\t\t We take data privacy seriously and adhere to the highest standards respecting all relevant regulations and guidelines.\n"
+"\t\t\t\t To join and help shape the future of Solid Security and StellarWP, simply click “Allow & Continue” below."
+msgstr ""
+"Hola %s, SolidWP se dedica a ofrecer servicios de alta gama, y tus indicaciones nos ayudan a ofrecerlos bajo esa premisa.\n"
+"\t\t\t\t Al aceptar participar en nuestro programa de comentarios ayudas a mejorar la experiencia con Solid Security para ti y para todos los demás usuarios.\n"
+"\t\t\t\t Al aceptarlo nos permites acceder a ciertos datos relacionados con cómo usas nuestros productos, los cuales utilizamos de manera responsable para adaptar nuestros productos a tus necesidades.\n"
+"\t\t\t\t Adicionalmente, recibirás actualizaciones, información importante sobre productos y marketing, así como ofertas exclusivas por correo electrónico. Puedes cancelar la suscripción en cualquier momento.\n"
+"\t\t\t\t Nos tomamos en serio la privacidad de los datos y nos adherimos a los más altos estándares que respetan todas las regulaciones y directrices.\n"
+"\t\t\t\t Para unirte y ayudar a dar forma al futuro de Solid Security y StellarWP, simplemente haz clic en «Permitir y continuar», a continuación."
+
+#: core/modules/backup/class-itsec-backup.php:342
+msgid "Total Backups"
+msgstr "Total de copias de seguridad"
 
 #: module-strings.php:205
 msgid "Select the HTTP header record used by your proxy server or load balancer to forward the IP address of each site visitor. Contact your hosting provider or proxy service provider (Cloudflare, etc.) to determine the correct setting. When configured correctly, the “Detected IP” shown above should match your current IP address."
@@ -39,35 +129,35 @@ msgstr "Activa la comprobación de seguridad para configurar automáticamente la
 msgid "Some firewall features are disabled because IP Detection has not been configured."
 msgstr "Algunas funciones del cortafuegos están desactivadas porque no se ha configurado la Detección de IP."
 
-#: core/modules/core/class-itsec-core-admin.php:54
+#: core/modules/core/class-itsec-core-admin.php:59
 msgid "Configure Now"
 msgstr "Configurar ahora"
 
-#: core/modules/core/class-itsec-core-admin.php:53
+#: core/modules/core/class-itsec-core-admin.php:58
 msgid "Important: Some Solid Security features are disabled because IP Detection has not been configured."
 msgstr "Importante: Algunas funciones de Solid Security están desactivadas porque no se ha configurado la detección de IP."
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:80
+#: core/lib/site-types/Question/Global_Question_Pack.php:84
 msgid "Select IP Source"
 msgstr "Selecciona la fuente IP"
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:61
+#: core/lib/site-types/Question/Global_Question_Pack.php:65
 msgid "Read more about IP detection."
 msgstr "Más información sobre la detección de IP."
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:59
+#: core/lib/site-types/Question/Global_Question_Pack.php:63
 msgid "Solid Security relies on accurately identifying the IP addresses of your site’s visitors and users to block and/or authorize them."
 msgstr "Solid Security se basa en la identificación precisa de las direcciones IP de los visitantes y usuarios de tu sitio para bloquearlos y/o autorizarlos."
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:55
+#: core/lib/site-types/Question/Global_Question_Pack.php:59
 msgid "Configure IP Detection"
 msgstr "Configura la detección de IP"
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:26
+#: core/lib/site-types/Question/Global_Question_Pack.php:30
 msgid "For certain firewall features to function, Solid Security must be properly configured to identify the IP addresses of your site’s visitors and users. Security Check Pro automatically configures the correct IP detection method based upon your server configuration.<br><br>Enabling Security Check Pro allows your site to periodically make an API request to SolidWP servers to discover your current server configuration and set/update the IP detection method. No user information is sent to SolidWP."
 msgstr "Para que funcionen determinadas funciones del cortafuegos, Solid Security debe estar correctamente configurado para identificar las direcciones IP de los visitantes y usuarios de tu sitio. Security Check Pro configura automáticamente el método correcto de detección de IP en función de la configuración de tu servidor.<br><br>Activar Security Check Pro permite que tu sitio realice periódicamente una solicitud API a los servidores de SolidWP para descubrir la configuración actual de tu servidor y establecer/actualizar el método de detección de IP. No se envía ninguna información del usuario a SolidWP."
 
-#: core/lib.php:2583
+#: core/lib.php:2618
 msgid "You must select an IP Detection method in Global Settings."
 msgstr "Debes seleccionar un método de Detección de IP en los ajustes goblales."
 
@@ -100,7 +190,7 @@ msgid "Tell us more..."
 msgstr "Cuéntanos más..."
 
 #. Translators: The user name and the plugin name.
-#: vendor-prod/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php:230
+#: vendor-prod/stellarwp/telemetry/src/Telemetry/Opt_In/Opt_In_Template.php:246
 msgid ""
 "Hi, %1$s! This is an invitation to help our StellarWP community.\n"
 "\t\t\t\tIf you opt-in, some data about your usage of %2$s and future StellarWP Products will be shared with our teams (so they can work their butts off to improve).\n"
@@ -155,54 +245,40 @@ msgstr "Permitir compartir datos"
 msgid "Two-Factor Users"
 msgstr "Usuarios de dos factores"
 
-#: core/modules/core/class-itsec-core-admin.php:188
-msgid ""
-"Hi %s! At Solid, we’re committed to delivering top-notch services, and your valuable insights play a crucial role in helping us achieve that goal.\n"
-"\t\t\t\tWe’re excited to invite you to participate in our opt-in program, designed to enhance your experience with Solid Security and contribute to the continuous improvement of StellarWP Products.\n"
-"\t\t\t\tBy opting in, you allow our teams to access certain data related to your website data. This information will be used responsibly to gain insights into your preferences and patterns, enabling us to tailor our services and products to better meet your needs.\n"
-"\t\t\t\tRest assured, we take data privacy seriously, and our usage of your information will adhere to the highest standards, respecting all relevant regulations and guidelines. Your trust means the world to us, and we are committed to maintaining the confidentiality and security of your data.\n"
-"\t\t\t\tTo join this initiative and be part of shaping the future of Solid Security and StellarWP, simply click “Allow & Continue” below."
-msgstr ""
-"¡Hola %s! En Solid, nos comprometemos a ofrecer servicios de primera categoría, y tus valiosas opiniones desempeñan un papel crucial para ayudarnos a lograr ese objetivo.\n"
-"\t\t\t\tNos complace invitarte a participar en nuestro programa de opt-in, diseñado para mejorar tu experiencia con Solid Security y contribuir a la mejora continua de los productos StellarWP.\n"
-"\t\t\t\tAl optar por participar, permites que nuestros equipos accedan a ciertos datos relacionados con los datos de tu sitio web. Esta información se utilizará de forma responsable para conocer mejor tus preferencias y patrones, lo que nos permitirá adaptar nuestros servicios y productos para satisfacer mejor tus necesidades.\n"
-"\t\t\t\tTen por seguro que nos tomamos muy en serio la privacidad de los datos, y que el uso que hagamos de tu información se ajustará a las normas más estrictas, respetando todas las normativas y directrices pertinentes. Tu confianza significa mucho para nosotros, y nos comprometemos a mantener la confidencialidad y seguridad de tus datos.\n"
-"\t\t\t\tPara unirte a esta iniciativa y formar parte de la configuración del futuro de Solid Security y StellarWP, simplemente haz clic en «Permitir y continuar» a continuación."
-
-#: core/modules/core/class-itsec-core-admin.php:175
+#: core/modules/core/class-itsec-core-admin.php:180
 msgid "Configured Settings"
 msgstr "Ajustes configurados"
 
-#: core/modules/core/class-itsec-core-admin.php:168
+#: core/modules/core/class-itsec-core-admin.php:173
 msgid "Active Features"
 msgstr "Funciones activas"
 
-#: core/modules/core/class-itsec-core-admin.php:158
+#: core/modules/core/class-itsec-core-admin.php:163
 msgid "Activated"
 msgstr "Activo"
 
-#: core/modules/core/class-itsec-core-admin.php:153
+#: core/modules/core/class-itsec-core-admin.php:158
 msgid "Initial Build"
 msgstr "Versión inicial"
 
-#: core/modules/core/class-itsec-core-admin.php:149
+#: core/modules/core/class-itsec-core-admin.php:154
 msgid "Basic"
 msgstr "Básico"
 
-#: core/modules/core/class-itsec-core-admin.php:148
+#: core/modules/core/class-itsec-core-admin.php:153
 msgid "Install Type"
 msgstr "Tipo de instalación"
 
-#: core/modules/core/class-itsec-core-admin.php:108
+#: core/modules/core/class-itsec-core-admin.php:113
 msgid "Help us improve Solid Security."
 msgstr "Ayúdanos a mejorar Solid Security."
 
-#: core/modules/core/class-itsec-core-admin.php:59
-#: core/modules/core/class-itsec-core-admin.php:103
+#: core/modules/core/class-itsec-core-admin.php:64
+#: core/modules/core/class-itsec-core-admin.php:108
 msgid "Solid Security Logo"
 msgstr "Logo de Solid Security"
 
-#: core/lockout.php:1494
+#: core/lockout.php:1498
 msgid "Release lockouts from the Active Lockouts section of the Security -> Dashboard page."
 msgstr "Libera los bloqueos desde la sección «Bloqueos activos» de la página Seguridad -> Escritorio."
 
@@ -265,10 +341,13 @@ msgstr "Debes estar conectado para dejar un comentario."
 msgid "Deactivate"
 msgstr "Desactivar"
 
-#: core/modules/core/class-itsec-core-admin.php:163
+#: core/modules/core/class-itsec-core-admin.php:168
 #: core/admin-pages/entries/firewall/components/rules-table-header/index.js:122
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/scan-site/found-issues.js:96
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/scan-site/intro.js:95
 #: core/modules/site-scanner/entries/dashboard/vulnerable-software/index.js:110
-#: dist/pages/firewall.js:2 dist/site-scanner/dashboard.js:2
+#: dist/pages/firewall.js:2 dist/pages/settings.js:1
+#: dist/site-scanner/dashboard.js:2
 msgid "Patchstack"
 msgstr "Patchstack"
 
@@ -279,11 +358,11 @@ msgstr "Patchstack"
 msgid "Active"
 msgstr "Activo"
 
-#: vendor-prod/deliciousbrains/wp-background-processing/classes/wp-background-process.php:659
+#: vendor-prod/deliciousbrains/wp-background-processing/classes/wp-background-process.php:783
 msgid "Every %d Minutes"
 msgstr "Cada %d minutos"
 
-#: vendor-prod/deliciousbrains/wp-background-processing/classes/wp-background-process.php:657
+#: vendor-prod/deliciousbrains/wp-background-processing/classes/wp-background-process.php:781
 msgid "Every Minute"
 msgstr "Cada minuto"
 
@@ -465,19 +544,6 @@ msgstr "Recordatorio de identificación de dos factores para %s"
 #: core/modules/two-factor/class-itsec-two-factor.php:798
 msgid "Two Factor Reminder"
 msgstr "Recordatorio de dos factores"
-
-#: core/modules/sync-connect/templates/prompt-link.php:2
-msgid "Connect Solid Central"
-msgstr "Conectar Solid Central"
-
-#: core/modules/sync-connect/templates/connect-unauthorized.php:7
-#: core/modules/sync-connect/templates/fallback.php:7
-msgid "Take me back to Central"
-msgstr "Llévame de vuelta a Central"
-
-#: core/modules/sync-connect/templates/connect-prompt.php:3
-msgid "Connecting Solid Central"
-msgstr "Conectar Solid Central"
 
 #. translators: 1. User display name.
 #: core/modules/strong-passwords/REST/Scan.php:117
@@ -732,7 +798,7 @@ msgstr "Tu nueva URL de acceso está disponible a continuación"
 msgid "Enable Security Check"
 msgstr "Activar comprobación de seguridad"
 
-#: core/modules/firewall/Rules/Repository.php:243
+#: core/modules/firewall/Rules/Repository.php:249
 msgid "Could not count firewall rules."
 msgstr "No se han podido contar las reglas del cortafuegos."
 
@@ -819,11 +885,11 @@ msgstr "Motor de reglas del cortafuegos"
 msgid "Fix vulnerability in %s"
 msgstr "Corregir vulnerabilidad en %s"
 
-#: core/modules/firewall/Firewall.php:46
+#: core/modules/firewall/Firewall.php:83
 msgid "Firewall Rule"
 msgstr "Regla del cortafuegos"
 
-#: core/modules/firewall/Firewall.php:45
+#: core/modules/firewall/Firewall.php:82
 msgid "Triggered too many firewall rules"
 msgstr "Se han activado demasiadas reglas de cortafuegos"
 
@@ -854,10 +920,6 @@ msgstr "CAPTCHA omitido"
 #: core/modules/core/cards/class-itsec-dashboard-card-active-lockouts.php:286
 msgid "Invalid CAPTCHA"
 msgstr "CAPTCHA no válido"
-
-#: core/modules/core/notices.php:301
-msgid "Welcome to Solid Security"
-msgstr "Te damos la bienvenida a Solid Security"
 
 #: core/modules/core/class-itsec-core-active.php:438
 msgid "Removed MU-Plugin loader."
@@ -891,23 +953,23 @@ msgstr "Has realizado compras fraudulentas."
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: core/lockout.php:1525
+#: core/lockout.php:1529
 msgid "IP Lockout"
 msgstr "Bloqueo de IP"
 
-#: core/lockout.php:1520
+#: core/lockout.php:1524
 msgid "Authorized IP Triggered IP Lockout"
 msgstr "Bloqueo de IP desencadenado por IP autorizada"
 
-#: core/lockout.php:1499
+#: core/lockout.php:1503
 msgid "Release the permanently banned IP from the Banned IPs dashboard card."
 msgstr "Libera la IP bloqueada permanentemente de la tarjeta del escritorio de IPs bloqueadas."
 
-#: core/lockout.php:1495 core/lockout.php:1500
+#: core/lockout.php:1499 core/lockout.php:1504
 msgid "Visit Dashboard"
 msgstr "Visitar escritorio"
 
-#: core/lockout.php:1489
+#: core/lockout.php:1493
 msgid "%s lockout notification"
 msgstr "Aviso de bloqueo %s"
 
@@ -1019,12 +1081,12 @@ msgstr "Obtén Solid Security Pro"
 msgid "Remotely disabled by SolidWP."
 msgstr "Desactivado remotamente por SolidWP."
 
-#: core/lib.php:2578 core/admin-pages/entries/settings/utils.js:274
+#: core/lib.php:2609 core/admin-pages/entries/settings/utils.js:275
 #: dist/pages/settings.js:1
 msgid "Loading Solid Security without an MU-Plugin is not supported."
 msgstr "No se puede cargar Solid Security sin un MU-Plugin."
 
-#: core/lib.php:2576 core/admin-pages/entries/settings/utils.js:272
+#: core/lib.php:2603 core/admin-pages/entries/settings/utils.js:273
 #: dist/pages/settings.js:1
 msgid "Loading Solid Security via an MU-Plugin is not supported."
 msgstr "No se puede cargar Solid Security a través de un MU-Plugin."
@@ -1036,7 +1098,7 @@ msgid "IP Address"
 msgstr "Dirección IP"
 
 #: core/admin-pages/page-debug.php:170 core/admin-pages/page-logs.php:434
-#: core/modules/core/class-itsec-core-admin.php:145
+#: core/modules/core/class-itsec-core-admin.php:150
 #: core/admin-pages/entries/firewall/components/rules-table-header/index.js:123
 #: dist/pages/firewall.js:2
 msgid "Solid Security"
@@ -1071,14 +1133,14 @@ msgstr "Seguridad del usuario"
 
 #: core/admin-pages/init.php:43
 #: core/admin-pages/entries/firewall/components/header/index.js:30
-#: core/admin-pages/entries/settings/utils.js:152 dist/pages/firewall.js:2
-#: dist/pages/settings.js:1
+#: core/admin-pages/entries/settings/utils.js:153 dist/pages/firewall.js:2
+#: dist/pages/settings.js:4
 msgid "Firewall"
 msgstr "Cortafuegos"
 
 #: better-wp-security.php:29
-msgid "Solid Security Basic requires WordPress 6.3 or later."
-msgstr "Solid Security Basic necesita WordPress 6.3 o superior."
+msgid "Solid Security Basic requires WordPress 6.5 or later."
+msgstr "Solid Security Basic necesita WordPress 6.5 o superior."
 
 #: better-wp-security.php:19
 msgid "Solid Security Basic requires PHP 7.3 or higher."
@@ -1108,12 +1170,6 @@ msgstr "https://solidwp.com/products/security"
 #: better-wp-security.php
 msgid "Solid Security Basic"
 msgstr "Solid Security Basic"
-
-#: core/modules/core/notices.php:326
-#: core/modules/site-scanner/entries/site-scan/app.js:121
-#: dist/site-scanner/site-scan.js:1
-msgid "Learn more"
-msgstr "Más información"
 
 #: core/modules/core/notices.php:16
 msgid "New Turnstile and hCaptcha Support"
@@ -1325,31 +1381,31 @@ msgstr "No se ha podido generar una clave de cifrado aleatoria."
 msgid "You must check “Confirm Reset Key” to continue."
 msgstr "Debes marcar «Confirmar clave de restablecimiento» para continuar."
 
-#: core/lockout.php:726
+#: core/lockout.php:727
 msgid "No host."
 msgstr "No hay host."
 
-#: core/lockout.php:719
+#: core/lockout.php:720
 msgid "Lockout not found."
 msgstr "Bloqueo no encontrado."
 
-#: core/lockout.php:712
+#: core/lockout.php:713
 msgid "Invalid lockout."
 msgstr "Bloqueo no válido."
 
-#: core/lockout.php:703
+#: core/lockout.php:704
 msgid "Not supported."
 msgstr "No compatible."
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:33
+#: core/lib/site-types/Question/Global_Question_Pack.php:37
 msgid "Read our Privacy Policy"
 msgstr "Leer nuestra política de privacidad"
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:32
+#: core/lib/site-types/Question/Global_Question_Pack.php:36
 msgid "Enable Security Check Pro"
 msgstr "Activar Security Check Pro"
 
-#: core/lib/site-types/Question/Global_Question_Pack.php:22
+#: core/lib/site-types/Question/Global_Question_Pack.php:26
 msgid "Enable Security Check Pro?"
 msgstr "¿Activar Security Check Pro?"
 
@@ -1408,7 +1464,7 @@ msgid "Solid Security does not have permission to write to your wp-config.php fi
 msgstr "iThemes Security no tiene permisos para escribir en tu archivo wp-config.php."
 
 #. translators: List of PHP extensions
-#: core/lib.php:2561 core/admin-pages/entries/settings/utils.js:259
+#: core/lib.php:2587 core/admin-pages/entries/settings/utils.js:260
 #: dist/pages/settings.js:1
 msgid "The following PHP extension is required: %l."
 msgid_plural "The following PHP extensions are required: %l."
@@ -1416,23 +1472,23 @@ msgstr[0] "Se requiere la siguiente extensión PHP: %l."
 msgstr[1] "Se requieren las siguientes extensiones PHP: %l."
 
 #. translators: PHP Extension name.
-#: core/lib.php:2558 core/admin-pages/entries/settings/utils.js:253
+#: core/lib.php:2584 core/admin-pages/entries/settings/utils.js:254
 #: dist/pages/settings.js:1
 msgid "The %s PHP extension is required."
 msgstr "Se requiere la extensión PHP %s."
 
 #. translators: The PHP version.
-#: core/lib.php:2549 core/admin-pages/entries/settings/utils.js:242
+#: core/lib.php:2570 core/admin-pages/entries/settings/utils.js:243
 #: dist/pages/settings.js:1
 msgid "You must be running PHP version %s or later."
 msgstr "Debes estar ejecutando la versión de PHP %s o posterior."
 
-#: core/lib.php:2541 core/admin-pages/entries/settings/utils.js:234
+#: core/lib.php:2559 core/admin-pages/entries/settings/utils.js:235
 #: dist/pages/settings.js:1
 msgid "Multisite is not supported."
 msgstr "No es compatible con multisitio"
 
-#: core/lib.php:2536 core/admin-pages/entries/settings/utils.js:232
+#: core/lib.php:2550 core/admin-pages/entries/settings/utils.js:233
 #: dist/pages/settings.js:1
 msgid "Multisite must be enabled."
 msgstr "El multisitio debe estar activado."
@@ -1473,11 +1529,11 @@ msgstr "No se encontró ningún enlace de cabecera."
 msgid "Cannot connect to site: %l."
 msgstr "No puedo conectar al sitio: %l."
 
-#: core/modules/user-groups/Module/Module.php:344
+#: core/modules/user-groups/Module/Module.php:345
 msgid "Could not import '%1$s' User Group: %2$s"
 msgstr "No se pudo importar el grupo de usuarios '%1$s': %2$s"
 
-#: core/modules/user-groups/Module/Module.php:236
+#: core/modules/user-groups/Module/Module.php:237
 msgid "List of created User Groups"
 msgstr "Lista de grupos de usuarios creados"
 
@@ -1590,7 +1646,7 @@ msgid "Import"
 msgstr "Importar"
 
 #. translators: The name of the feature.
-#: core/lib.php:2525 core/admin-pages/entries/settings/utils.js:218
+#: core/lib.php:2535 core/admin-pages/entries/settings/utils.js:219
 #: dist/pages/settings.js:1
 msgid "The '%s' feature flag must be enabled."
 msgstr "Debes activar la característica '%s' "
@@ -1599,167 +1655,167 @@ msgstr "Debes activar la característica '%s' "
 msgid "Excluded Tables"
 msgstr "Tablas excluidas"
 
-#: module-strings.php:389
+#: module-strings.php:385
 msgid "Enable XML-RPC"
 msgstr "Activar XML-RPC"
 
-#: module-strings.php:411
+#: module-strings.php:407
 msgid "API Access"
 msgstr "Acceso a la API"
 
-#: module-strings.php:410
+#: module-strings.php:406
 msgid "Disables a user’s author page if their post count is 0. This makes it harder for bots to determine usernames by disabling post archives for users that don’t write content for your site."
 msgstr "Desactiva la página de autor del usuario si su contador de entradas es 0. Esto dificulta a los bots determinar nombres de usuario al desactivar los archivos de entradas para usuarios que no hayan escrito contenido para tu sitio."
 
-#: module-strings.php:406
+#: module-strings.php:402
 msgid "Users can only log in using their user’s username. This disables logging in using an email address."
 msgstr "Los usuarios solo pueden acceder usando su nombre de usuario. Esto desactiva el acceso usando la dirección de correo electrónico."
 
-#: module-strings.php:404
+#: module-strings.php:400
 msgid "Users can only log in using their user’s email address. This disables logging in using a username."
 msgstr "Los usuarios solo pueden acceder usando su dirección de correo electrónico. Esto desactiva el acceso usando un nombre de usuario."
 
-#: module-strings.php:402
+#: module-strings.php:398
 msgid "Allow users to log in using their user’s email address or username. This is the default WordPress behavior."
 msgstr "Permite a los usuarios acceder usando su dirección de correo electrónico o nombre de usuario. Este es el comportamiento por defecto de WordPress."
 
-#: module-strings.php:401
+#: module-strings.php:397
 msgid "Email Address and Username"
 msgstr "Dirección de correo electrónico y nombre de usuario"
 
-#: module-strings.php:397
+#: module-strings.php:393
 msgid "Restricted Access"
 msgstr "Acceso restringido"
 
-#: module-strings.php:394
+#: module-strings.php:390
 msgid "The WordPress REST API is part of WordPress and provides developers with new ways to manage WordPress. By default, it could give public access to information that you believe is private on your site."
 msgstr "La API REST de WordPress es parte de WordPress y ofrece a los desarrolladores nuevos métodos de gestionar WordPress. Por defecto, podría dar acceso público a información que tu crees que es privada en tu sitio."
 
-#: module-strings.php:392
+#: module-strings.php:388
 msgid "By default, the WordPress XML-RPC API allows hundreds of username and password guesses per request. Turn off this setting to prevent attackers from exploiting this feature."
 msgstr "Por defecto, la API XML-RPC de WordPress permite cientos de intentos de solicitud de nombres de usuario y contraseña. Desactiva este ajuste para evitar que los atacantes exploten esta característica. "
 
-#: module-strings.php:390
+#: module-strings.php:386
 msgid "XML-RPC is fully enabled and will function as normal. Use this setting only if the site must have unrestricted use of XML-RPC."
 msgstr "XML-RPC está totalmente activo y funcionará normalmente. Usa este ajuste solo si el sitio debe tener un uso sin restricciones de XML-RPC."
 
-#: module-strings.php:388
+#: module-strings.php:384
 msgid "Only disable pingbacks. Other XML-RPC features will work as normal. Select this setting if you require features such as Jetpack or the WordPress Mobile app."
 msgstr "Solo desactiva los pingbacks. El resto de características de XML-RPC funcionará normalmente. Selecciona este ajuste si requieres características como Jetpack o la aplicación móvil de WordPress."
 
-#: module-strings.php:384
+#: module-strings.php:380
 msgid "The WordPress XML-RPC API allows external services to access and modify content on the site. Common example of services that make use of XML-RPC are [the Jetpack plugin](https://jetpack.com), [the WordPress mobile apps](https://wordpress.org/mobile/), and [pingbacks](https://wpbeg.in/IiI0sh). If the site does not use a service that requires XML-RPC, select the “Disable XML-RPC” setting as disabling XML-RPC prevents attackers from using the feature to attack the site."
 msgstr "La API XML-RPC de WordPress permite a servicios externos acceder y modificar el contenido del sitio. Ejemplos comunes de servicios que hacen uso de XML-RPC son [el plugin Jetpack](https://jetpack.com), [las aplicaciones móviles de WordPress](https://wordpress.org/mobile/) y los [pingbacks](https://wpbeg.in/IiI0sh). Si el sitio no utiliza un servicio que requiera XML-RPC, selecciona la opción «Desactivar XML-RPC», ya que al desactivar XML-RPC se evita que los atacantes utilicen esta función para atacar el sitio."
 
-#: module-strings.php:382
+#: module-strings.php:378
 msgid "Disables the WordPress file editor for plugins and themes. Once activated you will need to manually edit files using FTP or other tools."
 msgstr "Desactiva el editor de archivos de plugins y temas de WordPress. Una vez activado tendrás que editar manualmente los archivos usando FTP u otras herramientas."
 
-#: module-strings.php:380
+#: module-strings.php:376
 msgid "Increase the security of your website by removing the ability to edit files from the WordPress dashboard and limiting how APIs and users access your site."
 msgstr "Aumenta la seguridad de tu web quitando la posibilidad de editar archivos desde el escritorio de WordPress y limitando cómo las APIs y los usuarios acceden a tu sitio."
 
-#: module-strings.php:379
+#: module-strings.php:375
 msgid "Make changes to the default behavior of WordPress."
 msgstr "Hace cambios en el comportamiento por defecto de WordPress."
 
-#: module-strings.php:374
+#: module-strings.php:370
 msgid "User Groups allow you to view and manage the security settings that affect how people interact with your site. Enabling security features per group gives you the flexibility to apply the right level of security to the right people. If a user belongs to multiple groups, all settings enabled in those groups will be applied to that user."
 msgstr "Los grupos de usuarios te permiten ver y gestionar los ajustes de seguridad que afectan a cómo la gente interactúa con tu sitio. Activando características de seguridad por grupo te da la flexibilidad de aplicar el nivel de seguridad correcto para la gente correcta.</br>Si un usuario pertenece a varios grupos todos los ajustes activos en esos grupos se aplicarán a ese usuario."
 
-#: module-strings.php:368
+#: module-strings.php:364
 msgid "Use Application Passwords to allow authentication without providing your actual password when using non-traditional login methods such as XML-RPC or the REST API. Application passwords are easily revoked and can never be used in the traditional login process."
 msgstr "Usa las contraseñas de aplicación para permitir la identificación sin ofrecer tu contraseña actual cuando uses métodos de acceso no tradicionales, como XML-RPC o la API REST. Pueden anularse fácilmente, y nunca se pueden usar para accesos tradicionales a tu web."
 
-#: module-strings.php:367
+#: module-strings.php:363
 msgid "Application Passwords"
 msgstr "Contraseñas de aplicación"
 
-#: module-strings.php:366
+#: module-strings.php:362
 msgid "By default, when a user logs in via the WordPress Login Page, Solid Security will prompt them to setup Two-Factor. Optionally, you can skip the two-factor authentication on-boarding process for certain users. Users can still manually enroll in two-factor through their WordPress admin profile."
 msgstr "Por defecto, cuando un usuario accede a través de la página de acceso de WordPress, iThemes Security pide configurar los dos factores. Opcionalmente, puedes omitir el proceso de bienvenida de la identificación de dos factores desde su perfil de administración de WordPress."
 
-#: module-strings.php:365
+#: module-strings.php:361
 msgid "Skip Two-Factor Onboarding"
 msgstr "Omitir la bienvenida de los dos factores"
 
-#: module-strings.php:364
+#: module-strings.php:360
 msgid "Setup Flow"
 msgstr "Flujo de configuración"
 
-#: module-strings.php:363
+#: module-strings.php:359
 msgid "Methods"
 msgstr "Métodos"
 
-#: module-strings.php:362
+#: module-strings.php:358
 msgid "Customize the text shown to users at the beginning of the Two-Factor onboarding flow."
 msgstr "Personaliza el texto mostrados a los usuarios al comienzo del flujo de bienvenida de los dos factores."
 
-#: module-strings.php:361
+#: module-strings.php:357
 msgid "Onboarding Welcome Text"
 msgstr "Texto de bienvenida"
 
-#: module-strings.php:360
+#: module-strings.php:356
 msgid "This simplifies the signup flow for users who require two-factor to be enabled for their account."
 msgstr "Esto simplifica el flujo de registro de los usuarios para los que sea obligatorio activar los dos factores en su cuenta."
 
-#: module-strings.php:359
+#: module-strings.php:355
 msgid "Disable on First Login"
 msgstr "Desactivar en el primer acceso"
 
-#: module-strings.php:358
+#: module-strings.php:354
 msgid "Select Available Methods"
 msgstr "Seleccionar los métodos disponibles"
 
-#: module-strings.php:357
+#: module-strings.php:353
 msgid "Select Methods Manually"
 msgstr "Seleccionar los métodos manualmente"
 
-#: module-strings.php:356
+#: module-strings.php:352
 msgid "All Except Email"
 msgstr "Todos excepto correo electrónico"
 
-#: module-strings.php:355
+#: module-strings.php:351
 msgid "All Methods (recommended)"
 msgstr "Todos los métodos (recomendado)"
 
-#: module-strings.php:354
+#: module-strings.php:350
 msgid "Solid Security supports multiple two-factor authentication methods: mobile apps, email messages, and backup codes. Selecting “All Methods” is highly recommended so that users can choose the method that works the best for them."
 msgstr "iThemes Security es compatible con varios métodos de dos factores: aplicación móvil, correo electrónico y códigos de respaldo. Se recomienda seleccionar «Todos los métodos» para que los usuarios puedan usar el método que mejor les funcione."
 
-#: module-strings.php:353
+#: module-strings.php:349
 msgid "Authentication Methods Available to Users"
 msgstr "Métodos de identificación disponibles para los usuarios"
 
-#: module-strings.php:352
+#: module-strings.php:348
 msgid "mfa"
 msgstr "mfa"
 
-#: module-strings.php:351
+#: module-strings.php:347
 msgid "multi-factor"
 msgstr "multi-factor"
 
-#: module-strings.php:350
+#: module-strings.php:346
 msgid "2fa"
 msgstr "2fa"
 
-#: module-strings.php:349
+#: module-strings.php:345
 msgid "Two-Factor authentication is a tried and true security method that will stop most automated bot attacks on the WordPress login screen. Once Two-Factor Authentication is enabled here, users can visit their profile settings to enable it on their account."
 msgstr "La identificación de dos factores es un método de seguridad probado y eficaz, y detendrá la mayoría de los ataques de bots automatizados en el acceso a WordPress. Una vez que esté activada la identificación de dos factores aquí, los usuarios pueden visitar su perfil para activar la identificación de dos factores para su cuenta."
 
-#: module-strings.php:343
+#: module-strings.php:339
 msgid "PHP Execution"
 msgstr "Ejecución de PHP"
 
-#: module-strings.php:342
+#: module-strings.php:338
 msgid "File Access"
 msgstr "Acceso a archivos"
 
-#: module-strings.php:331
+#: module-strings.php:327
 msgid "Increase security by restricting file access and PHP execution on your server. This can help mitigate arbitrary file upload vulnerabilities from gaining complete control of your server."
 msgstr "Aumenta la seguridad restringiendo el acceso a archivos y la ejecución de PHP en tu servidor. Esto puede ayudar a mitigar vulnerabilidades de subida de archivos arbitrarios para obtener control completo de tu servidor."
 
-#: module-strings.php:330
+#: module-strings.php:326
 msgid "Make changes to the server configuration for this site."
 msgstr "Hacer cambios a la configuración del servidor de este sitio."
 
@@ -1823,6 +1879,7 @@ msgstr "La función de ocultar escritorio no es infalible, y tu nueva URL de acc
 msgid "Change the login URL of your site."
 msgstr "Cambiar la URL de acceso de tu sitio."
 
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:79
 #: module-strings.php:226
 msgid "Refuse Compromised Passwords"
 msgstr "Rechazar contraseñas comprometidas"
@@ -1952,6 +2009,8 @@ msgid "See a real-time overview of the security activity on your website with th
 msgstr "Ve un resumen en tiempo real de la actividad de seguridad de tu web con este escritorio dinámico."
 
 #: module-strings.php:62
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/firewall/index.js:51
+#: dist/pages/settings.js:4
 msgid "Local Brute Force"
 msgstr "Fuerza bruta local"
 
@@ -2024,11 +2083,13 @@ msgid "Configured on the Feature Flags page."
 msgstr "Configurado en la página de indicadores de características."
 
 #: vendor-prod/stellarwp/telemetry/src/views/optin.php:34
-#: core/packages/components/src/help-list/index.js:63 dist/6179.js:2
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/scan-site/intro.js:91
+#: core/packages/components/src/help-list/index.js:63 dist/2238.js:2
+#: dist/pages/settings.js:1
 msgid "Privacy Policy"
 msgstr "Política de Privacidad"
 
-#: module-strings.php:373
+#: module-strings.php:369
 msgid "User Groups allow you to enable security features for specific sets of users."
 msgstr "Los grupos de usuarios te permiten activar características de seguridad para conjuntos específicos de usuarios."
 
@@ -2313,9 +2374,9 @@ msgstr "Usuario desconocido"
 msgid "Two Factor"
 msgstr "Dos factores"
 
-#: core/modules/two-factor/labels.php:4 module-strings.php:347
+#: core/modules/two-factor/labels.php:4 module-strings.php:343
 #: core/admin-pages/entries/settings/pages/summary/features.js:55
-#: dist/pages/settings.js:1
+#: dist/pages/settings.js:4
 msgid "Two-Factor"
 msgstr "Dos factores"
 
@@ -2384,7 +2445,7 @@ msgstr "Por favor, introduce un código de identificación de tu aplicación mó
 #: core/admin-pages/entries/settings/components/onboard-main/index.js:49
 #: core/admin-pages/entries/settings/pages/site-type/questions/question.js:67
 #: core/modules/dashboard/entries/dashboard/components/help/index.js:39
-#: dist/1930.js:2 dist/dashboard/dashboard.js:1 dist/pages/settings.js:1
+#: dist/8356.js:2 dist/dashboard/dashboard.js:1 dist/pages/settings.js:1
 msgid "Back"
 msgstr "Volver"
 
@@ -2540,7 +2601,9 @@ msgstr "Opciones de identificación de dos factores"
 #: core/modules/two-factor/includes/template.php:148
 #: core/modules/two-factor/includes/template.php:262
 #: core/modules/two-factor/providers/class.two-factor-email.php:170
-#: core/packages/components/src/help-list/index.js:66 dist/6179.js:2
+#: core/admin-pages/entries/settings/pages/site-type/questions/login-security/index.js:102
+#: core/packages/components/src/help-list/index.js:66 dist/2238.js:2
+#: dist/pages/settings.js:1
 msgid "Continue"
 msgstr "Continuar"
 
@@ -2759,7 +2822,7 @@ msgstr "Debes facilitar un nombre para esta contraseña de aplicación."
 msgid "ITSEC_Application_Passwords_Util::handle_request() was triggered by an invalid action."
 msgstr "ITSEC_Application_Passwords_Util::handle_request() lanzado por una acción no válida."
 
-#: core/modules/ssl/class-itsec-ssl.php:142
+#: core/modules/ssl/class-itsec-ssl.php:147
 msgid "Redirect All HTTP Page Requests to HTTPS - Security > Settings > Enforce SSL"
 msgstr "Redirigir todas las solicitud de páginas HTTP a HTTPS - Seguridad > Ajustes > Forzar SSL"
 
@@ -3080,6 +3143,7 @@ msgstr "Hacer ahora una copia de seguridad"
 msgid "Invalid Backups Directory"
 msgstr "Directorio de copias de seguridad no válido"
 
+#: core/lib/class-itsec-mail.php:769
 #: core/modules/backup/cards/class-itsec-dashboard-card-database-backup.php:60
 #: core/modules/backup/cards/class-itsec-dashboard-card-database-backup.php:137
 #: core/modules/backup/cards/class-itsec-dashboard-card-database-backup.php:165
@@ -3126,45 +3190,41 @@ msgstr "Ha fallado un intento de registrar el módulo %1$s debido a que tiene un
 msgid "An attempt to register the %1$s module failed because it's configuration file is empty."
 msgstr "Ha fallado un intento de registrar el módulo %1$s debido a que su archivo de configuración está vacío."
 
-#: core/lib/tools/Tools_Runner.php:177
+#: core/lib/tools/Tools_Runner.php:186
 msgid "This tool cannot be disabled because it isn‘t a toggleable tool."
 msgstr "Esta herramienta no se puede desactivar porque no es una herramienta que se pueda activar/desactivar."
 
-#: core/lib/tools/Tools_Runner.php:144
+#: core/lib/tools/Tools_Runner.php:153
 msgid "This tool cannot be enabled because it isn‘t a toggleable tool."
 msgstr "Esta herramienta no se puede activar porque no es una herramienta que se pueda activar/desactivar."
 
-#: core/lib/tools/Tools_Runner.php:60
+#: core/lib/tools/Tools_Runner.php:69
 msgid "This tool cannot run because its condition is not valid."
 msgstr "Esta herramienta no se puede ejecutar porque su condición no es válida."
 
-#: core/lib/tools/Tools_Runner.php:53
+#: core/lib/tools/Tools_Runner.php:62
 msgid "This tool cannot run because it isn‘t available."
 msgstr "Esta herramienta no se puede ejecutar porque no está disponible."
 
-#: core/lib/site-types/Type/Portfolio.php:20
+#: core/lib/site-types/Type/Portfolio.php:21
 msgid "A website to showcase your craft."
 msgstr "Una web para mostrar tu habilidad."
 
-#: core/lib/site-types/Type/Portfolio.php:16
+#: core/lib/site-types/Type/Portfolio.php:17
 msgid "Portfolio"
 msgstr "Porfolio"
 
-#: core/lib/site-types/Type/Non_Profit.php:60
+#: core/lib/site-types/Type/Non_Profit.php:58
 msgid "Do you want to secure your donor accounts with a password policy?"
 msgstr "¿Quieres asegurar las cuentas de tus donantes con una política de contraseñas?"
 
-#: core/lib/site-types/Type/Non_Profit.php:58
+#: core/lib/site-types/Type/Non_Profit.php:56
 msgid "Do you want to secure your donor accounts with two-factor authentication?"
 msgstr "¿Quieres asegurar las cuentas de tus donantes con la identificación de dos factores?"
 
-#: core/lib/site-types/Type/Non_Profit.php:56
+#: core/lib/site-types/Type/Non_Profit.php:54
 msgid "Select your donors"
 msgstr "Selecciona tus donantes"
-
-#: core/lib/site-types/Type/Non_Profit.php:46
-msgid "Donors"
-msgstr "Donantes"
 
 #: core/lib/site-types/Type/Non_Profit.php:29
 msgid "A website to promote your cause and collect donations."
@@ -3174,21 +3234,17 @@ msgstr "Una web para promocionar tu causa y recoger donaciones."
 msgid "Non-Profit"
 msgstr "Sin ánimo de lucro"
 
-#: core/lib/site-types/Type/Network.php:61
+#: core/lib/site-types/Type/Network.php:59
 msgid "Do you want to secure your member accounts with a password policy?"
 msgstr "¿Quieres asegurar las cuentas de tus miembros con una política de contraseñas?"
 
-#: core/lib/site-types/Type/Network.php:59
+#: core/lib/site-types/Type/Network.php:57
 msgid "Do you want to secure your member accounts with two-factor authentication?"
 msgstr "¿Quieres asegurar las cuentas de tus miembros con la identificación de dos factores?"
 
-#: core/lib/site-types/Type/Network.php:57
+#: core/lib/site-types/Type/Network.php:55
 msgid "Select your members"
 msgstr "Selecciona tus miembros"
-
-#: core/lib/site-types/Type/Network.php:47
-msgid "Members"
-msgstr "Miembros"
 
 #: core/lib/site-types/Type/Network.php:30
 msgid "A website to connect people and communities."
@@ -3198,21 +3254,17 @@ msgstr "Una web para conectar personas y comunidades."
 msgid "Network"
 msgstr "Red"
 
-#: core/lib/site-types/Type/Ecommerce.php:61
+#: core/lib/site-types/Type/Ecommerce.php:59
 msgid "Do you want to secure your customer accounts with a password policy?"
 msgstr "¿Quieres asegurar las cuentas de tus clientes con una política de contraseñas?"
 
-#: core/lib/site-types/Type/Ecommerce.php:59
+#: core/lib/site-types/Type/Ecommerce.php:57
 msgid "Do you want to secure your customer accounts with two-factor authentication?"
 msgstr "¿Quieres asegurar las cuentas de tus clientes con la identificación de dos factores?"
 
-#: core/lib/site-types/Type/Ecommerce.php:57
+#: core/lib/site-types/Type/Ecommerce.php:55
 msgid "Select your customers"
 msgstr "Selecciona tus clientes"
-
-#: core/lib/site-types/Type/Ecommerce.php:47
-msgid "Customers"
-msgstr "Clientes"
 
 #: core/lib/site-types/Type/Ecommerce.php:30
 msgid "A website to sell products or services."
@@ -3222,46 +3274,22 @@ msgstr "Una web para vender productos o servicios."
 msgid "eCommerce"
 msgstr "Comercio electrónico"
 
-#: core/lib/site-types/Type/Brochure.php:20
+#: core/lib/site-types/Type/Brochure.php:21
 msgid "A simple website to promote your business."
 msgstr "Una web simple para promocionar tu negocio."
 
-#: core/lib/site-types/Type/Brochure.php:16
+#: core/lib/site-types/Type/Brochure.php:17
 msgid "Brochure"
 msgstr "Catálogo"
 
-#: core/lib/site-types/Type/Blog.php:20
+#: core/lib/site-types/Type/Blog.php:21
 msgid "A website to share your thoughts or to start a conversation."
 msgstr "Una web para compartir tus pensamientos o empezar una conversación."
 
-#: core/lib/site-types/Type/Blog.php:16
-#: core/packages/components/src/help-list/index.js:108 dist/6179.js:2
+#: core/lib/site-types/Type/Blog.php:17
+#: core/packages/components/src/help-list/index.js:108 dist/2238.js:2
 msgid "Blog"
 msgstr "Blog"
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:117
-msgid "When you secure your users with a password policy, Solid Security will require them to create a strong password that hasn’t already been compromised. "
-msgstr "Cuando aseguras a tus usuarios con una política de contraseñas, iThemes Security les obligará a crear una contraseña fuerte que no esté ya comprometida."
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:113
-msgid "Do you want to secure your user accounts with a password policy?"
-msgstr "¿Quieres asegurar las cuentas de tus usuarios con una política de contraseñas?"
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:104
-msgid "Yes, enforce a password policy for these users."
-msgstr "Sí, forzar una política de contraseñas para estos usuarios."
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:50
-msgid "Securing users with two-factor authentication will require them to enter a security code along with their username and password to log in. Two-factor authentication is the strongest way to prevent automated bot attacks."
-msgstr "Asegurar a los usuarios con la identificación de dos factores les obligará a introducir un código de seguridad además de su usuario y contraseña para poder acceder. La identificación de dos factores es el modo más fuerte de evitar ataques automáticos de bots."
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:46
-msgid "Do you want to secure your user accounts with two-factor authentication?"
-msgstr "¿Quieres asegurar las cuentas de tus usuarios con la identificación de dos factores?"
-
-#: core/lib/site-types/Question/Login_Security_Question_Pack.php:37
-msgid "Yes, require Two-Factor for these users."
-msgstr "Sí, requerir los dos factores para estos usuarios."
 
 #: core/lib/site-types/Question/End_Users_Question_Pack.php:56
 msgid "Select the WordPress user roles they are assigned to."
@@ -3271,47 +3299,47 @@ msgstr "Selecciona los perfiles de usuario de WordPress a los que están asignad
 msgid "Who are the end users of your website?"
 msgstr "¿Quiénes son los usuarios finales de tu web?"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:192
+#: core/lib/site-types/Question/Client_Question_Pack.php:75
 msgid "Yes, allow managing of Solid Security"
 msgstr "Sí, permitir gestionar iThemes Security"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:186
+#: core/lib/site-types/Question/Client_Question_Pack.php:69
 msgid "Restricting client access to the security settings will prevent them from making unwanted changes and seeing security notifications they may not understand."
 msgstr "Restringir a los clientes el acceso a los ajustes de seguridad evitará que hagan cambios indeseados y que vean avisos de seguridad que puede que no comprendan."
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:182
+#: core/lib/site-types/Question/Client_Question_Pack.php:65
 msgid "Should your clients be able to view and make changes to the Solid Security settings?"
 msgstr "¿Deberían tus clientes poder ver y hacer cambios en los ajustes de iThemes Security?"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:155
+#: core/lib/site-types/Question/Client_Question_Pack.php:192
 msgid "Security Managers"
 msgstr "Gestores de seguridad"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:122
+#: core/lib/site-types/Question/Client_Question_Pack.php:159
 msgid "Include yourself and anyone else who will need access to Solid Security. Grouping these users together will allow you to manage their access to sensitive information and which security settings you enable for them."
 msgstr "Inclúyete a ti mismo y a cualquier otro que necesite acceder a iThemes Security. Agrupar juntos estos usuarios te permitirá gestionar su acceso a información sensible y a qué ajustes de seguridad les permites acceder."
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:118
+#: core/lib/site-types/Question/Client_Question_Pack.php:155
 msgid "Which users will manage Solid Security on this site?"
 msgstr "¿Qué usuarios gestionarán iThemes Security en este sitio?"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:94
+#: core/lib/site-types/Question/Client_Question_Pack.php:131
 msgid "Clients"
 msgstr "Clientes"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:63
+#: core/lib/site-types/Question/Client_Question_Pack.php:100
 msgid "Solid Security Pro will group client users together, allowing you to manage their access to sensitive information and which security settings you enable for them."
 msgstr "iThemes Security Pro agrupará juntos a usuarios clientes, permitiéndote gestionar su acceso a información sensible y a qué ajustes de seguridad les permites acceder."
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:59
+#: core/lib/site-types/Question/Client_Question_Pack.php:96
 msgid "Which users are your clients?"
 msgstr "¿Qué usuarios son tus clientes?"
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:30
+#: core/lib/site-types/Question/Client_Question_Pack.php:35
 msgid "If you are setting up Solid Security for a client, next you‘ll select which users are theirs. Identifying your clients allows you to control their access to things like the security settings or if they are allowed to view the Security Dashboard."
 msgstr "Si estás configurando iThemes Security para un cliente, te pediremos que selecciones cuáles son sus usuarios. Identificar a tus clientes te permite controlar su acceso a cosas como los ajustes de seguridad y si tienen permisos para ver el panel de seguridad."
 
-#: core/lib/site-types/Question/Client_Question_Pack.php:26
+#: core/lib/site-types/Question/Client_Question_Pack.php:31
 msgid "Choosing who you are setting the site up for will help to preconfigure some settings for you."
 msgstr "Elegir quién está configurando el sitio nos ayudará a pre-configurar algunos ajustes para ti."
 
@@ -3320,51 +3348,51 @@ msgstr "Elegir quién está configurando el sitio nos ayudará a pre-configurar 
 msgid "Tool not found."
 msgstr "Herramienta no encontrada."
 
-#: core/lib/rest/Site_Types_Controller.php:309
+#: core/lib/rest/Site_Types_Controller.php:328
 msgid "The question property must be a string for answers entry %d."
 msgstr "La propiedad de la pregunta debe ser una cadena del registro de respuestas %d."
 
-#: core/lib/rest/Site_Types_Controller.php:305
+#: core/lib/rest/Site_Types_Controller.php:324
 msgid "The question and answer properties are required for answers entry %d."
 msgstr "Las propiedades pregunta y respuesta son obligatorias para el registro de respuestas %d."
 
-#: core/lib/rest/Site_Types_Controller.php:301
+#: core/lib/rest/Site_Types_Controller.php:320
 msgid "Answers entry %d must be an object."
 msgstr "El registro de las respuestas %d debe ser un objeto."
 
-#: core/lib/rest/Site_Types_Controller.php:296
+#: core/lib/rest/Site_Types_Controller.php:315
 msgid "Answers must be an array."
 msgstr "Las respuestas deben ser un array."
 
-#: core/lib/rest/Site_Types_Controller.php:256
+#: core/lib/rest/Site_Types_Controller.php:268
 msgid "The user provided answer."
 msgstr "El usuario facilitó la respuesta."
 
-#: core/lib/rest/Site_Types_Controller.php:252
+#: core/lib/rest/Site_Types_Controller.php:264
 msgid "The question id."
 msgstr "El id de la pregunta."
 
-#: core/lib/rest/Site_Types_Controller.php:246
+#: core/lib/rest/Site_Types_Controller.php:258
 msgid "The list of answers."
 msgstr "La lista de respuestas."
 
-#: core/lib/rest/Site_Types_Controller.php:230
+#: core/lib/rest/Site_Types_Controller.php:242
 msgid "The next question to ask the user."
 msgstr "La siguiente pregunta a hacer al usuario."
 
-#: core/lib/rest/Site_Types_Controller.php:225
+#: core/lib/rest/Site_Types_Controller.php:237
 msgid "The name of the icon representing the Site Type."
 msgstr "El nombre del icono que representa el tipo de sitio."
 
-#: core/lib/rest/Site_Types_Controller.php:220
+#: core/lib/rest/Site_Types_Controller.php:232
 msgid "The description of the Site Type."
 msgstr "La descripción del tipo de sitio."
 
-#: core/lib/rest/Site_Types_Controller.php:215
+#: core/lib/rest/Site_Types_Controller.php:227
 msgid "The title of the Site Type."
 msgstr "El título del tipo de sitio."
 
-#: core/lib/rest/Site_Types_Controller.php:210
+#: core/lib/rest/Site_Types_Controller.php:222
 msgid "The unique id identifying the site type."
 msgstr "El id único que identifica el tipo de sitio."
 
@@ -3469,11 +3497,11 @@ msgstr "Este requisito de contraseña no evalúa las contraseñas."
 msgid "Add Ban"
 msgstr "Añadir bloqueo"
 
-#: core/lib.php:2515
+#: core/lib.php:2521
 msgid "Your site must not support SSL."
 msgstr "Tu sitio no debe ser compatible con SSL."
 
-#: core/lib.php:2515 core/admin-pages/entries/settings/utils.js:204
+#: core/lib.php:2521 core/admin-pages/entries/settings/utils.js:205
 #: dist/pages/settings.js:1
 msgid "Your site must support SSL."
 msgstr "Tu sitio debe ser compatible con SSL."
@@ -3500,7 +3528,7 @@ msgstr "Escritorio de seguridad"
 msgid "Setup"
 msgstr "Configuración"
 
-#: core/modules/brute-force/class-itsec-brute-force.php:109
+#: core/modules/brute-force/class-itsec-brute-force.php:100
 msgid "Brute Force \"admin\" Username"
 msgstr "Fuerza bruta del nombre de usuario «admin»"
 
@@ -3693,15 +3721,15 @@ msgstr "Módulo de bloqueo inactivo %s"
 msgid "%s is not a valid IP address."
 msgstr "%s no es una dirección IP válida."
 
-#: core/core.php:919
+#: core/core.php:918
 msgid "Passing the log type as the second parameter is no longer supported. Pass a filters array instead."
 msgstr "Pasar el tipo de registro como segundo parámetro ya no es posible. Pasa un array de filtros en su lugar."
 
-#: core/core.php:912
+#: core/core.php:911
 msgid "Passing a module as a single parameter is no longer supported. Pass a filters array instead."
 msgstr "Pasar un módulo como parámetro único ya no es posible. Pasar un array de filtros en su lugar."
 
-#: core/lib.php:2506
+#: core/lib.php:2508
 msgid "You must be running at least version %s of Solid Security."
 msgstr "Debes estar ejecutando, al menos, la versión %s de iThemes Security."
 
@@ -3980,7 +4008,7 @@ msgstr "Dominio bloqueado por %s"
 
 #: core/modules/malware-scheduling/labels.php:4
 #: core/modules/security-check/scanner.php:19
-#: core/modules/security-check/scanner.php:77 module-strings.php:251
+#: core/modules/security-check/scanner.php:77
 msgid "Site Scan Scheduling"
 msgstr "Programando exploración del sitio"
 
@@ -4088,11 +4116,11 @@ msgstr "No se confirmó que «ninguno» sea un algoritmo permitido."
 msgid "Unable to update the %1$s plugin. %2$s"
 msgstr "No ha sido posible actualizar el plugin %1$s. %2$s"
 
-#: core/lockout.php:1518
+#: core/lockout.php:1522
 msgid "IP Triggered Ban Conditions"
 msgstr "El servidor provocó condiciones de bloqueo"
 
-#: core/lockout.php:1516
+#: core/lockout.php:1520
 msgid "Authorized IP Triggered Ban Conditions"
 msgstr "Un servidor autorizado provocó condiciones de bloqueo"
 
@@ -4109,7 +4137,7 @@ msgstr "Otro"
 #: core/admin-pages/entries/settings/search.js:20
 #: core/modules/user-groups/entries/settings/components/manage-group/index.js:45
 #: core/modules/user-groups/entries/settings/components/manage-multiple-groups/index.js:23
-#: dist/pages/settings.js:1 dist/user-groups/settings.js:2
+#: dist/pages/settings.js:4 dist/user-groups/settings.js:2
 msgid "Features"
 msgstr "Características"
 
@@ -4125,6 +4153,10 @@ msgstr "Forzar a los usuarios a usar contraseñas fuertes en los grupos seleccio
 #: core/modules/strong-passwords/Strength_Requirement.php:66
 msgid "User Group"
 msgstr "Grupo de usuario"
+
+#: core/lib/site-types/Question/Login_Security_Question_Pack.php:75
+msgid "Require Strong Passwords"
+msgstr "Se necesitan contraseñas fuertes"
 
 #: core/modules/backup/labels.php:4
 #: core/modules/backup/entries/dashboard/index.js:83 dist/backup/dashboard.js:2
@@ -4157,54 +4189,9 @@ msgstr "Explorar ahora"
 msgid "Site Scan"
 msgstr "Explorar el sitio"
 
-#: core/modules/sync-connect/templates/or.php:2
-msgid "Or"
-msgstr "o"
-
-#: core/modules/sync-connect/templates/connect-unauthorized.php:4
-msgid "Your user account does not have the ability to install or activate plugins. Please ask your site administrator to install Central."
-msgstr "Tu cuenta de usuario no tiene los permisos para instalar o activar plugins. Por favor, solicita al administrador de tu sitio que instale Sync."
-
-#: core/modules/sync-connect/templates/connect-unauthorized.php:3
-msgid "Account is not authorized"
-msgstr "La cuenta no está autorizada"
-
-#: core/modules/sync-connect/templates/connect-prompt.php:4
-msgid "This will install the Solid Central plugin and connect the plugin to your Central account."
-msgstr "Esto instalará y conectará el plugin «iThemes Sync» a tu cuenta de «Sync»."
-
-#: core/modules/sync-connect/class-itsec-sync-connect-interstitial.php:98
-msgid "Missing sync connect token."
-msgstr "Falta el token de conexión de Sync."
-
-#: core/modules/sync-connect/class-itsec-sync-connect-interstitial.php:83
-msgid "The plugin could not be activated. Please manually activate the plugin. Error: %s"
-msgstr "El plugin no se ha podido activar. Por favor, activa el plugin manualmente. Error: %s"
-
-#: core/modules/sync-connect/class-itsec-sync-connect-interstitial.php:67
-msgid "The plugin could not be installed. Please manually install the plugin. Error: %s"
-msgstr "El plugin no se ha podido instalar. Por favor, instala el plugin manualmente. Error: %s"
-
-#: core/modules/sync-connect/labels.php:4 module-strings.php:325
-msgid "Sync Connect"
-msgstr "Conectar con Sync"
-
 #: core/lib/upgrader-skin.php:28
-#: core/modules/sync-connect/includes/upgrader-skin.php:18
 msgid "Could not request filesystem credentials."
 msgstr "No se ha podido solicitar las credenciales del sistema de archivos."
-
-#: core/modules/sync-connect/class-itsec-sync-connect.php:140
-msgid "Invalid JSON response from Sync API. Please manually activate the plugin."
-msgstr "La respuesta JSON de la API de «Sync» no es válida. Por favor, activa el plugin manualmente."
-
-#: core/modules/sync-connect/class-itsec-sync-connect.php:134
-msgid "Invalid response from the server (Code: %d). Please manually activate the plugin."
-msgstr "Respuesta no válida del servidor (Código: %d). Por favor, activa el plugin manualmente."
-
-#: core/modules/sync-connect/class-itsec-sync-connect.php:73
-msgid "Installation failed for an unknown reason."
-msgstr "La instalación ha fallado por un motivo desconocido."
 
 #: core/modules/user-groups/Upgrader.php:158
 msgid "%s Users"
@@ -4285,14 +4272,14 @@ msgstr "No se ha encontrado ningún grupo de usuario."
 
 #: core/lib/rest/Modules_Controller.php:329
 #: core/modules/user-groups/labels.php:4
-#: core/modules/user-groups/Module/Module.php:219
-#: core/modules/user-groups/Module/Module.php:232 module-strings.php:372
+#: core/modules/user-groups/Module/Module.php:220
+#: core/modules/user-groups/Module/Module.php:233 module-strings.php:368
 #: core/modules/user-groups/entries/settings/app.js:24
 #: core/modules/user-groups/entries/settings/components/layout/index.js:119
 #: core/modules/user-groups/entries/settings/components/layout/index.js:154
 #: core/modules/user-groups/entries/settings/components/multi-group-selector/index.js:44
 #: core/modules/user-groups/entries/settings/components/onboard-chooser/index.js:40
-#: core/modules/user-groups/entries/settings/utils.js:287
+#: core/modules/user-groups/entries/settings/utils.js:278
 #: core/modules/user-groups/entries/user-security/app.js:82
 #: dist/user-groups/settings.js:2 dist/user-groups/user-security.js:1
 msgid "User Groups"
@@ -4439,7 +4426,6 @@ msgid "An error occurred when communicating with the Solid Security Check server
 msgstr "Ocurrió un error al comunicar con el servidor de comprobaciones de iThemes Security: El servidor devolvió una respuesta en blanco."
 
 #: core/modules/security-check-pro/utility.php:201
-#: core/modules/sync-connect/class-itsec-sync-connect.php:127
 msgid "The server was unable to be contacted."
 msgstr "No se ha podido contactar con el servidor."
 
@@ -4486,6 +4472,8 @@ msgid "<b>Username:</b> %1$s"
 msgstr "<b>Nombre de usuario:</b> %1$s"
 
 #: core/lib/class-itsec-lib-login.php:64
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/firewall/index.js:131
+#: dist/pages/settings.js:4
 msgid "Username or Email Address"
 msgstr "Nombre de usuario o dirección de correo electrónico"
 
@@ -4530,7 +4518,7 @@ msgstr "Dominio limpio por %s"
 
 #: core/modules/site-scanner/template.php:142
 #: core/packages/components/src/site-scan-results/wrapped-section.js:36
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Warn"
 msgstr "Advertencia"
 
@@ -4543,14 +4531,14 @@ msgstr "Vulnerabilidades conocidas"
 #: core/modules/site-scanner/mail.php:145
 #: core/modules/site-scanner/template.php:109
 #: core/packages/components/src/site-scan-results/wp-error-details.js:33
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Error Code: %s"
 msgstr "Código de error: %s"
 
 #: core/modules/two-factor/includes/template.php:74
 #: core/admin-pages/entries/firewall/components/nav/index.js:25
 #: core/modules/core/entries/admin-notices/components/panel/index.js:44
-#: core/modules/two-factor/entries/profile/app.js:23 dist/5896.js:2
+#: core/modules/two-factor/entries/profile/app.js:23 dist/4933.js:2
 #: dist/pages/firewall.js:2 dist/two-factor/profile.js:1
 msgid "Configure"
 msgstr "Configurar"
@@ -4567,17 +4555,17 @@ msgstr "Descartar permanentemente"
 msgid "Created At"
 msgstr "Creado a las"
 
-#: core/modules/core/class-itsec-admin-notices.php:169
+#: core/modules/core/class-itsec-admin-notices.php:36
 msgid "Invalid request format."
 msgstr "Formato de solicitud no válido."
 
-#: core/modules/core/class-itsec-admin-notices.php:197
+#: core/modules/core/class-itsec-admin-notices.php:64
 #: core/modules/core/class-rest-core-admin-notices-controller.php:124
 #: core/modules/dashboard/rest/class-itsec-rest-dashboard-card-controller.php:467
 msgid "Action not found."
 msgstr "Acción no encontrada."
 
-#: core/modules/core/class-itsec-admin-notices.php:191
+#: core/modules/core/class-itsec-admin-notices.php:58
 #: core/modules/core/class-rest-core-admin-notices-controller.php:118
 msgid "Notice not found."
 msgstr "Aviso no encontrado."
@@ -4922,9 +4910,9 @@ msgstr "Modificar ajustes"
 #: core/modules/core/entries/ban-hosts/components/actions/index.js:49
 #: core/modules/user-groups/entries/settings/components/save-group/index.js:60
 #: core/modules/user-groups/entries/settings/components/save-multiple-groups/index.js:55
-#: core/packages/schema-form/src/index.js:110 dist/core/ban-hosts.js:1
-#: dist/pages/firewall.js:2 dist/pages/settings.js:1 dist/pages/tools.js:1
-#: dist/user-groups/settings.js:2
+#: core/packages/schema-form/src/index.js:107 dist/core/ban-hosts.js:1
+#: dist/pages/firewall.js:2 dist/pages/settings.js:1 dist/pages/settings.js:4
+#: dist/pages/tools.js:1 dist/user-groups/settings.js:2
 msgid "Save"
 msgstr "Guardar"
 
@@ -5243,7 +5231,7 @@ msgstr "Núcleo de WordPress %s"
 msgid "The %1$s comparator failed to load hashes for %2$s."
 msgstr "El comparador %1$s falló en cargar los hashes de %2$s."
 
-#: core/modules/core/class-itsec-admin-notices.php:173
+#: core/modules/core/class-itsec-admin-notices.php:40
 msgid "Request Expired. Please refresh and try again."
 msgstr "Solicitud caducada. Por favor, recarga e inténtalo de nuevo."
 
@@ -5311,7 +5299,7 @@ msgstr "Explorar"
 
 #. translators: 1. The site URL.
 #: core/modules/site-scanner/template.php:29
-#: core/packages/components/src/site-scan-results/index.js:36 dist/6179.js:2
+#: core/packages/components/src/site-scan-results/index.js:36 dist/2238.js:2
 msgid "Site: %s"
 msgstr "Sitio: %s"
 
@@ -5333,6 +5321,8 @@ msgstr "IP bloqueada"
 
 #: core/modules/network-brute-force/labels.php:4
 #: core/modules/network-brute-force/logs.php:10 module-strings.php:256
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/firewall/index.js:57
+#: dist/pages/settings.js:4
 msgid "Network Brute Force"
 msgstr "Ataque de fuerza bruta en red"
 
@@ -5389,7 +5379,7 @@ msgstr "Identificación por XMLRPC"
 msgid "Invalid Login"
 msgstr "Acceso no válido"
 
-#: core/modules/brute-force/class-itsec-brute-force.php:100
+#: core/modules/brute-force/class-itsec-brute-force.php:91
 #: core/modules/brute-force/labels.php:4 core/modules/brute-force/logs.php:11
 msgid "Brute Force"
 msgstr "Fuerza bruta"
@@ -5414,31 +5404,31 @@ msgstr "Archivo creado y correos enviados"
 msgid "File Created but Email Send Failed"
 msgstr "Archivo creado pero fallo en el envío del correo"
 
-#: core/lockout.php:1545
+#: core/lockout.php:1549
 msgid "Username Lockout"
 msgstr "Bloqueo de nombre de usuario"
 
-#: core/lockout.php:1543
+#: core/lockout.php:1547
 msgid "Username Lockout: <code>%s</code>"
 msgstr "Bloqueo de nombre de usuario: <code>%s</code>"
 
-#: core/lockout.php:1540
+#: core/lockout.php:1544
 msgid "Authorized IP Triggered Username Lockout"
 msgstr "Un servidor autorizado provocó un bloqueo de nombre de usuario"
 
-#: core/lockout.php:1537
+#: core/lockout.php:1541
 msgid "User Lockout"
 msgstr "Bloqueo de usuario"
 
-#: core/lockout.php:1535
+#: core/lockout.php:1539
 msgid "User Lockout: <code>%s</code>"
 msgstr "Bloqueo de usuario: <code>%s</code>"
 
-#: core/lockout.php:1528
+#: core/lockout.php:1532
 msgid "Authorized IP Triggered User Lockout"
 msgstr "Un servidor autorizado provocó un bloqueo de usuario"
 
-#: core/lockout.php:1523
+#: core/lockout.php:1527
 msgid "IP Lockout: <code>%s</code>"
 msgstr "Bloqueo de servidor: <code>%s</code>"
 
@@ -5959,19 +5949,19 @@ msgstr "El módulo de %1$sdetección de cambio en archivos%2$s enviará por corr
 msgid "File Change"
 msgstr "Cambio en archivos"
 
-#: core/modules/backup/class-itsec-backup.php:342
+#: core/modules/backup/class-itsec-backup.php:382
 msgid "The %1$sDatabase Backup%2$s module will send a copy of any backups to the email addresses listed below."
 msgstr "El módulo de %1$scopia de seguridad de la base de datos%2$s enviará una copia de las copias a las direcciones de correo listadas a continuación."
 
-#: core/modules/backup/class-itsec-backup.php:284
+#: core/modules/backup/class-itsec-backup.php:286
 msgid "Site Database Backup for %s"
 msgstr "Copia de seguridad de la base datos del sitio %s"
 
-#: core/lockout.php:1412
+#: core/lockout.php:1416
 msgid "Various modules send emails to notify you when a user or IP address is locked out of your website."
 msgstr "Varios módulos envían correos para avisarte cuando se bloquea en tu sitio a un usuario o servidor."
 
-#: core/lockout.php:1411
+#: core/lockout.php:1415
 msgid "Site Lockouts"
 msgstr "Bloqueos en el sitio"
 
@@ -6002,19 +5992,19 @@ msgstr "Para dejar de recibir estos avisos, por favor, %1$scontacta con el admin
 msgid "This email was generated by the Solid Security plugin on behalf of %s."
 msgstr "Este correo lo ha generado el plugin iThemes Security para %s."
 
-#: module-strings.php:400
+#: module-strings.php:396
 msgid "By default, WordPress allows users to log in using either an email address or username. This setting allows you to restrict logins to only accept email addresses or usernames."
 msgstr "Por defecto, WordPress permite a los usuarios acceder usando o una dirección de correo electrónico o el nombre de usuario. Este ajuste te permite restringir los accesos para solo aceptar direcciones de correo electrónico o nombres de usuario."
 
-#: module-strings.php:399
+#: module-strings.php:395
 msgid "Login with Email Address or Username"
 msgstr "Acceso con dirección de correo electrónico o nombre de usuario"
 
-#: module-strings.php:405
+#: module-strings.php:401
 msgid "Username Only"
 msgstr "Solo nombre de usuario"
 
-#: module-strings.php:403
+#: module-strings.php:399
 msgid "Email Address Only"
 msgstr "Solo dirección de correo electrónico"
 
@@ -6031,7 +6021,7 @@ msgstr "<strong>ERROR</strong>: Dirección de correo electrónico no válida o c
 msgid "Magic Links"
 msgstr "Enlaces mágicos"
 
-#: core/lockout.php:800
+#: core/lockout.php:801
 msgid "Error."
 msgstr "Error."
 
@@ -6146,23 +6136,23 @@ msgstr "Activado el ajuste de protección de usuario vulnerable en la identifica
 msgid "Changed the Authentication Methods Available to Users setting in Two-Factor Authentication to \"All Methods\"."
 msgstr "Cambiado el ajuste de métodos de identificación disponibles para los usuarios en la identificación de dos pasos a \"Todos los métodos\""
 
-#: core/modules/backup/class-itsec-backup.php:134
+#: core/modules/backup/class-itsec-backup.php:136
 msgid "Unable to write the backup file. This may be due to a permissions or disk space issue."
 msgstr "No fue posible crear el archivo de copia de seguridad. Este puede ser debido a un problema con los permisos o el espacio en disco."
 
-#: core/modules/backup/class-itsec-backup.php:128
+#: core/modules/backup/class-itsec-backup.php:130
 msgid "Unable to create the backup directory due to an unknown error."
 msgstr "No fue posible crear el directorio de copia de seguridad debido a un error desconocido."
 
-#: module-strings.php:396
+#: module-strings.php:392
 msgid "Access to REST API data is left as default. Information including published posts, user details, and media library entries is available for public access."
 msgstr "El acceso a los datos de la API REST está por defecto. La información, incluyendo las entradas publicadas, los detalles del usuario y las entradas de la biblioteca de medios, están disponibles para acceso público."
 
-#: module-strings.php:398
+#: module-strings.php:394
 msgid "Restrict access to most REST API data. This means that most requests will require a logged in user or a user with specific privileges, blocking public requests for potentially-private data. We recommend selecting this option."
 msgstr "Acceso restringido a la mayoría de los datos de la API REST. Esto significa que la mayoría de las peticiones necesitarán a un usuario conectado o con privilegios específicos, bloqueando las peticiones públicas de datos potencialmente privados. Recomendamos seleccionar esta opción."
 
-#: module-strings.php:395
+#: module-strings.php:391
 msgid "Default Access"
 msgstr "Acceso por defecto"
 
@@ -6179,7 +6169,7 @@ msgstr "Ajuste de la REST API en los ajustes de WordPress cambiado a \"Acceso re
 #: core/modules/two-factor/Application_Passwords_Core.php:77
 #: core/modules/two-factor/Application_Passwords_Core.php:106
 #: core/modules/two-factor/Application_Passwords_Core.php:146
-#: module-strings.php:393
+#: module-strings.php:389
 msgid "REST API"
 msgstr "API REST"
 
@@ -6202,31 +6192,27 @@ msgstr "Motivo"
 msgid "<b>User:</b> %1$s"
 msgstr "<b>Usuario:</b> %1$s"
 
-#: core/modules/file-change/admin.php:14
-msgid "Changes were detected. Please check the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">logs</a> for details."
-msgstr "Se han detectado cambios. Por favor, revisa la <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">los registros</a> para ver los detalles."
-
 #: module-strings.php:52
 msgid "As a getting-started point you can include the HackRepair.com ban list developed by Jim Walker."
 msgstr "Como base de inicio, puedes incluir la lista de bloqueo de HackRepair.com, desarrollada por Jim Walker."
 
-#: module-strings.php:341
+#: module-strings.php:337
 msgid "Disable PHP execution in the themes directory. This blocks requests to PHP files inside theme directories that can be exploited directly."
 msgstr "Desactiva la ejecución de PHP en el directorio de temas. Esto bloquea la peticiones a ficheros PHP dentro de los directorios del tema que pueden ser atacados directamente."
 
-#: module-strings.php:340
+#: module-strings.php:336
 msgid "Disable PHP in Themes"
 msgstr "Desactivar PHP en temas"
 
-#: module-strings.php:339
+#: module-strings.php:335
 msgid "Disable PHP execution in the plugins directory. This blocks requests to PHP files inside plugin directories that can be exploited directly."
 msgstr "Desactiva la ejecución de PHP en el directorio de plugins. Esto bloquea las peticiones a los archivos de PHP dentro del directorio de plugins que pueden ser explotados directamente."
 
-#: module-strings.php:338
+#: module-strings.php:334
 msgid "Disable PHP in Plugins"
 msgstr "Desactivar PHP en los plugins"
 
-#: module-strings.php:337
+#: module-strings.php:333
 msgid "Disable PHP execution in the uploads directory. This blocks requests to maliciously uploaded PHP files in the uploads directory."
 msgstr "Desactiva la ejecución de PHP en el directorio de subidas. Esto bloquea las peticiones a los archivos de PHP subidos maliciosamente al directorio de subidas."
 
@@ -6240,18 +6226,18 @@ msgstr "Desactivar PHP en Temas - Seguridad > Ajustes > Mejoras del sistema > PH
 msgid "Disable PHP in Plugins - Security > Settings > System Tweaks > PHP in Plugins"
 msgstr "Desactivar PHP en los Plugins - Seguridad > Ajustes > Mejoras del sistema > PHP en Plugins"
 
-#: core/modules/backup/class-itsec-backup.php:290
-#: core/admin-pages/entries/settings/pages/index.js:20 dist/pages/settings.js:1
+#: core/modules/backup/class-itsec-backup.php:292
+#: core/admin-pages/entries/settings/pages/index.js:20 dist/pages/settings.js:4
 msgid "Website"
 msgstr "Web"
 
-#: core/modules/backup/class-itsec-backup.php:287
+#: core/modules/backup/class-itsec-backup.php:289
 msgid "Attached is the database backup file for your site."
 msgstr "La copia de seguridad de la base de datos de tu sitio está adjunta."
 
-#: core/modules/backup/class-itsec-backup.php:283
-#: core/modules/backup/class-itsec-backup.php:340
-#: core/modules/backup/class-itsec-backup.php:346
+#: core/modules/backup/class-itsec-backup.php:285
+#: core/modules/backup/class-itsec-backup.php:380
+#: core/modules/backup/class-itsec-backup.php:386
 msgid "Database Backup"
 msgstr "Copia de seguridad de la base de datos"
 
@@ -6260,9 +6246,9 @@ msgid "Hosts"
 msgstr "Servidores"
 
 #: core/lib/class-itsec-mail.php:316
-#: core/lib/site-types/Question/Client_Question_Pack.php:68
-#: core/lib/site-types/Question/Client_Question_Pack.php:127
-#: core/modules/dashboard/container.php:30 module-strings.php:412
+#: core/lib/site-types/Question/Client_Question_Pack.php:105
+#: core/lib/site-types/Question/Client_Question_Pack.php:164
+#: core/modules/dashboard/container.php:30 module-strings.php:408
 msgid "Users"
 msgstr "Usuarios"
 
@@ -6401,7 +6387,7 @@ msgstr "Imposible leer el archivo <code>wp-config.php</code> para poder actualiz
 msgid "User Logging"
 msgstr "Acceso del usuario"
 
-#: module-strings.php:348
+#: module-strings.php:344
 msgid "Two-Factor Authentication greatly increases the security of your WordPress user account by requiring an additional code along with your username and password to log in."
 msgstr "La autenticación de dos factores incrementa de forma notable la seguridad de su cuenta de usuario WordPress porque requiere información adicional al nombre de usuario y contraseña para poder acceder al sistema."
 
@@ -6411,7 +6397,7 @@ msgstr "La autenticación de dos factores incrementa de forma notable la segurid
 #: core/modules/two-factor/entries/profile/app.js:31
 #: dist/two-factor/profile.js:1
 msgid "Two-Factor Authentication"
-msgstr "Autenticación de dos factores"
+msgstr "Identificación de dos factores"
 
 #: module-strings.php:252
 msgid "Protect your site with automated site scans. When this feature is enabled, the site will be automatically scanned twice a day. If a problem is found, an email is sent to select users."
@@ -6499,10 +6485,6 @@ msgstr "Ver las novedades"
 msgid "Server Config Rules"
 msgstr "Reglas de configuración del servidor"
 
-#: core/modules/file-change/admin.php:16
-msgid "A scan is already in progress. Please check the <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">logs page</a> at a later time for the results of the scan."
-msgstr "Ya hay un escaneo en progreso. Por favor, revisa más adelante <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">la página de registros</a> para ver los resultados del escaneo."
-
 #: module-strings.php:127
 msgid "Monitor the site for unexpected file changes."
 msgstr "Monitoriza el sitio para buscar cambios inesperados en archivos."
@@ -6560,19 +6542,19 @@ msgstr "Bloquea direcciones IP específicas y agentes de usuario para que no acc
 msgid "Last Run"
 msgstr "Última ejecución"
 
-#: core/modules/backup/class-itsec-backup.php:78
+#: core/modules/backup/class-itsec-backup.php:80
 msgid "Unable to create a backup at this time since a backup is currently being created. If you wish to create an additional backup, please wait a few minutes before trying again."
 msgstr "No ha sido posible hacer una copia de seguridad en este momento porque actualmente ya se está haciendo una copia de seguridad. Si quieres hacer una copia de seguridad adicional,por favor espera unos minutos antes de volver a intentarlo."
 
-#: core/modules/backup/class-itsec-backup.php:97
+#: core/modules/backup/class-itsec-backup.php:99
 msgid "Backup complete. The backup was saved locally."
 msgstr "Copia de seguridad completa. La copia de seguridad ha sido guardada en local."
 
-#: core/modules/backup/class-itsec-backup.php:94
+#: core/modules/backup/class-itsec-backup.php:96
 msgid "Backup complete. The backup was sent to the selected email recipients."
 msgstr "Copia de seguridad completa. La copia de seguridad ha sido enviada a las direcciones de email seleccionadas."
 
-#: core/modules/backup/class-itsec-backup.php:91
+#: core/modules/backup/class-itsec-backup.php:93
 msgid "Backup complete. The backup was sent to the selected email recipients and was saved locally."
 msgstr "Copia de seguridad completa. La copia de seguridad ha sido enviada a las direcciones de email seleccionadas y guardada localmente."
 
@@ -6761,7 +6743,7 @@ msgstr "El argumento ip no está disponible."
 #: core/modules/two-factor/includes/template.php:209
 #: core/modules/two-factor/includes/template.php:248
 #: core/modules/core/entries/ban-hosts/components/actions/index.js:38
-#: core/packages/schema-form/src/index.js:113 dist/1930.js:2
+#: core/packages/schema-form/src/index.js:110 dist/8356.js:2
 #: dist/core/ban-hosts.js:1 dist/pages/settings.js:1 dist/pages/tools.js:1
 msgid "Cancel"
 msgstr "Cancelar"
@@ -6893,7 +6875,7 @@ msgstr "Hay varias versiones activas de iThemes Security. Por favor, desactiva t
 
 #: core/modules/site-scanner/template.php:112
 #: core/packages/components/src/site-scan-results/wp-error-details.js:41
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "If you contact support about this error, please provide the following debug details:"
 msgstr "Si contactas con el soporte técnico sobre este error, por favor proporcionales los siguientes detalles del error:"
 
@@ -6901,15 +6883,15 @@ msgstr "Si contactas con el soporte técnico sobre este error, por favor proporc
 msgid "XML-RPC services are disabled on this site."
 msgstr "Los servicios XML-RPC están desactivados en este sitio."
 
-#: module-strings.php:391
+#: module-strings.php:387
 msgid "Allow Multiple Authentication Attempts per XML-RPC Request"
 msgstr "Permitir múltiples intentos de identificación por petición XML-RPC"
 
-#: module-strings.php:386
+#: module-strings.php:382
 msgid "XML-RPC is disabled on the site. This setting is highly recommended if Jetpack, the WordPress mobile app, pingbacks, and other services that use XML-RPC are not used."
 msgstr "XML-RPC está desactivado en el sitio. Este ajuste es altamente recomendado si no se usa Jetpack, la aplicación móvil de WordPress, los pingbacks y otros servicios que usen XML-RPC."
 
-#: module-strings.php:387
+#: module-strings.php:383
 msgid "Disable Pingbacks"
 msgstr "Desactivar pingbacks"
 
@@ -6921,11 +6903,11 @@ msgstr "Se requiere un alias. Por favor, elige un alias o introduce tu nombre y 
 msgid "Your Nickname must be different than your login name. Please choose a different Nickname."
 msgstr "Tu alias debe ser diferente de su nombre de usuario. Por favor, elige un alias diferente."
 
-#: module-strings.php:409
+#: module-strings.php:405
 msgid "Disable Extra User Archives"
 msgstr "Desactivar archivos de usuario adicionales"
 
-#: module-strings.php:407
+#: module-strings.php:403
 msgid "Force Unique Nickname"
 msgstr "Forzar alias único"
 
@@ -6933,7 +6915,7 @@ msgstr "Forzar alias único"
 #: core/modules/two-factor/Application_Passwords_Core.php:75
 #: core/modules/two-factor/Application_Passwords_Core.php:108
 #: core/modules/two-factor/Application_Passwords_Core.php:147
-#: module-strings.php:383
+#: module-strings.php:379
 msgid "XML-RPC"
 msgstr "XML-RPC"
 
@@ -6965,45 +6947,45 @@ msgstr "Desactivar XML-RPC - Seguridad > Ajustes > Ajustes WordPress > XML-RPC"
 msgid "Protect System Files - Security > Settings > System Tweaks > System Files"
 msgstr "Proteger los archivos de sistema - Seguridad > Ajustes > Sistema de ajustes > Archivos de sistema"
 
-#: module-strings.php:336
+#: module-strings.php:332
 msgid "Disable PHP in Uploads"
 msgstr "Desactivar PHP en uploads"
 
-#: module-strings.php:381
+#: module-strings.php:377
 msgid "Disable File Editor"
 msgstr "Desactivar editor de archivos"
 
-#: module-strings.php:385
+#: module-strings.php:381
 msgid "Disable XML-RPC"
 msgstr "Desactivar XML-RPC"
 
-#: module-strings.php:408
+#: module-strings.php:404
 msgid "This forces users to choose a unique nickname when updating their profile or creating a new account which prevents bots and attackers from easily harvesting user’s login usernames from the code on author pages. Note this does not automatically update existing users as it will affect author feed urls if used."
 msgstr "Esto obliga a los usuarios a elegir un alias único al actualizar su perfil o crear una nueva cuenta, lo que evita que los bots y los atacantes obtengan con facilidad los nombres de usuario de acceso a partir del código de las páginas de autor. Ten en cuenta que esto no actualiza automáticamente a los usuarios existentes, ya que afectaría a las URL del feed de autor, si se usa."
 
-#: module-strings.php:333
+#: module-strings.php:329
 msgid "Prevent public access to readme.html, readme.txt, wp-config.php, install.php, wp-includes, and .htaccess. These files can give away important information on your site and serve no purpose to the public once WordPress has been successfully installed."
 msgstr "Impedir el acceso del público a readme.html, readme.txt, wp-config.php, install.php, wp-includes, y. htaccess. Estos archivos pueden dar a conocer información importante en tu sitio y no sirven para nada al público una vez que WordPress se ha instalado correctamente."
 
-#: module-strings.php:332
+#: module-strings.php:328
 msgid "Protect System Files"
 msgstr "Proteger los archivos del sistema"
 
-#: module-strings.php:335
+#: module-strings.php:331
 msgid "Prevents users from seeing a list of files in a directory when no index file is present."
 msgstr "Impide que los usuarios vean una lista de archivos en un directorio cuando no hay archivo de índice presente."
 
-#: module-strings.php:334
+#: module-strings.php:330
 msgid "Disable Directory Browsing"
 msgstr "Desactivar la navegación de directorios"
 
 #: core/modules/security-check/scanner.php:25
 #: core/modules/security-check/scanner.php:90
-#: core/modules/wordpress-tweaks/labels.php:4 module-strings.php:378
+#: core/modules/wordpress-tweaks/labels.php:4 module-strings.php:374
 msgid "WordPress Tweaks"
 msgstr "Ajustes de WordPress"
 
-#: core/modules/system-tweaks/labels.php:4 module-strings.php:329
+#: core/modules/system-tweaks/labels.php:4 module-strings.php:325
 msgid "System Tweaks"
 msgstr "Ajustes del sistema"
 
@@ -7040,7 +7022,7 @@ msgstr "Salts de WordPress"
 #: core/modules/site-scanner/template.php:166
 #: core/modules/site-scanner/js/scanner.js:20
 #: core/packages/components/src/site-scan-results/wrapped-section.js:81
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Show Details"
 msgstr "Mostrar los detalles"
 
@@ -7057,7 +7039,7 @@ msgstr "lista negra"
 #: core/modules/site-scanner/mail.php:144
 #: core/modules/site-scanner/template.php:108
 #: core/packages/components/src/site-scan-results/wp-error-details.js:26
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Error Message: %s"
 msgstr "Mensaje de error: %s"
 
@@ -7065,7 +7047,7 @@ msgstr "Mensaje de error: %s"
 #: core/modules/site-scanner/template.php:123
 #: core/packages/components/src/site-scan-results/system-error-details.js:18
 #: core/packages/components/src/site-scan-results/wp-error-details.js:18
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "The scan failed to properly scan the site."
 msgstr "El escaneo falló en escanear el sitio correctamente."
 
@@ -7092,7 +7074,7 @@ msgstr "Acción"
 #: core/modules/site-scanner/template.php:139
 #: core/modules/site-scanner/util.php:75
 #: core/packages/components/src/site-scan-results/wrapped-section.js:33
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Clean"
 msgstr "Limpiar"
 
@@ -7149,7 +7131,7 @@ msgstr "Añadido"
 msgid "Memory Used"
 msgstr "Memoria en Uso"
 
-#: core/modules/backup/class-itsec-backup.php:293
+#: core/modules/backup/class-itsec-backup.php:295
 #: core/admin-pages/entries/vulnerabilities/components/vulnerability-table/index.js:107
 #: core/admin-pages/entries/vulnerabilities/pages/database/table.js:98
 #: core/admin-pages/entries/vulnerabilities/pages/scan/index.js:59
@@ -7177,22 +7159,9 @@ msgstr "Detección de cambios de archivo"
 msgid "View Logs"
 msgstr "Ver registros"
 
-#: core/modules/file-change/admin.php:15
-msgid "An unknown error occured. Please try again later"
-msgstr "Ha ocurrido un error desconocido. Por favor inténtalo más tarde"
-
-#: core/modules/file-change/admin.php:13
-msgid "No changes were detected."
-msgstr "No se detectaron cambios."
-
-#: core/modules/file-change/admin.php:12
 #: core/modules/file-change/scanner.php:241
 msgid "Scanning..."
 msgstr "Escaneando..."
-
-#: core/modules/file-change/admin.php:11
-msgid "Scan Files Now"
-msgstr "Escanear archivos ahora"
 
 #: core/modules/database-prefix/active.php:108
 msgid "Could not update prefix references in usermeta table."
@@ -7209,10 +7178,12 @@ msgstr "Cambiar el prefijo de la base de datos"
 #: core/lib/class-itsec-lib-login.php:68
 #: core/modules/wordpress-tweaks/class-itsec-wordpress-tweaks.php:181
 #: module-strings.php:262
+#: core/admin-pages/entries/settings/pages/site-type/questions/questions/password-requirements/index.js:98
+#: dist/pages/settings.js:4
 msgid "Email Address"
 msgstr "Dirección de correo electrónico"
 
-#: core/modules/core/class-itsec-core-admin.php:93
+#: core/modules/core/class-itsec-core-admin.php:98
 msgid "Get Support"
 msgstr "Obtener soporte"
 
@@ -7248,11 +7219,11 @@ msgstr "Cambiar directorio del contenido"
 msgid "Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory."
 msgstr "No eliminar. Eliminar esta línea podría romper tu sitio. Añadido por Seguridad > Ajustes > Cambiar Directorio de Contenido."
 
-#: core/modules/brute-force/class-itsec-brute-force.php:108
+#: core/modules/brute-force/class-itsec-brute-force.php:99
 msgid "User tried to login as \"admin.\""
 msgstr "el usuario trató de iniciar sesión como \"administrador.\""
 
-#: core/modules/brute-force/class-itsec-brute-force.php:99
+#: core/modules/brute-force/class-itsec-brute-force.php:90
 msgid "Too many bad login attempts"
 msgstr "demasiados intentos fallidos de inicio de sesión"
 
@@ -7332,7 +7303,7 @@ msgstr "¡Correcto!"
 #: core/lib/log.php:257 core/modules/notification-center/logs.php:76
 #: core/modules/site-scanner/template.php:145
 #: core/packages/components/src/site-scan-results/wrapped-section.js:39
-#: dist/6179.js:2
+#: dist/2238.js:2
 msgid "Error"
 msgstr "Error"
 
@@ -7452,7 +7423,7 @@ msgstr "%1$s %2$d"
 
 #: core/admin-pages/page-logs.php:404
 #: core/lib/class-itsec-wp-list-table.php:446
-#: core/packages/ui/src/date-range-control/index.js:212 dist/7959.js:1
+#: core/packages/ui/src/date-range-control/index.js:212 dist/8620.js:1
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -7586,12 +7557,12 @@ msgstr "iThemes Security preservó los siguientes ajustes ya que borrarlos podr�
 msgid "Enabled"
 msgstr "Activado"
 
-#: core/modules/core/class-itsec-core-admin.php:164
+#: core/modules/core/class-itsec-core-admin.php:169
 #: core/modules/security-check/scanner.php:127
 msgid "No"
 msgstr "No"
 
-#: core/modules/core/class-itsec-core-admin.php:164
+#: core/modules/core/class-itsec-core-admin.php:169
 #: core/modules/security-check/scanner.php:127
 msgid "Yes"
 msgstr "Sí"
@@ -7637,11 +7608,11 @@ msgstr "Hora"
 msgid "Details"
 msgstr "Detalles"
 
-#: core/lockout.php:1413 core/lockout.php:1486 core/lockout.php:1487
+#: core/lockout.php:1417 core/lockout.php:1490 core/lockout.php:1491
 msgid "Site Lockout Notification"
 msgstr "Aviso de bloqueo del sitio"
 
-#: core/lockout.php:1469
+#: core/lockout.php:1473
 msgid "Permanently"
 msgstr "Permanentemente"
 
@@ -7652,11 +7623,11 @@ msgstr "Permanentemente"
 msgid "Release Lockout"
 msgstr "Liberar bloqueo"
 
-#: core/lockout.php:794
+#: core/lockout.php:795
 msgid "You have been locked out due to too many invalid login attempts."
 msgstr "Has sido bloqueado debido a que has intentado iniciar sesión de forma no válida demasiadas veces."
 
-#: core/lockout.php:1513
+#: core/lockout.php:1517
 #: core/admin-pages/entries/firewall/components/logs-table/index.js:201
 #: dist/pages/firewall.js:2
 msgid "Lockout"
@@ -7697,7 +7668,7 @@ msgstr "Sólo en la base de datos"
 msgid "The message to display to a user when their IP has been flagged as suspicious by the SolidWP network."
 msgstr "El mensaje que se le mostrará a un usuario cuando su IP haya sido marcada como peligrosa por la red de iThemes."
 
-#: core/lockout.php:787
+#: core/lockout.php:788
 msgid "Your IP address has been flagged as a threat by the Solid Security network."
 msgstr "Tu dirección IP ha sido marcada como amenaza en la red de iThemes Security."
 
@@ -7741,7 +7712,7 @@ msgstr "Escribir en los archivos"
 #: module-strings.php:165
 #: core/admin-pages/entries/firewall/pages/configure/index.js:57
 #: core/admin-pages/entries/settings/pages/index.js:28 dist/pages/firewall.js:2
-#: dist/pages/settings.js:1
+#: dist/pages/settings.js:4
 msgid "Global Settings"
 msgstr "Ajustes globales"
 
@@ -7766,13 +7737,17 @@ msgstr "¡Nuevo! Lleva la seguridad de tu sitio al próximo nivel activando la r
 #: core/lib/admin-notices/class-itsec-admin-notice-user-dismissible.php:49
 #: core/admin-pages/entries/firewall/pages/automated/index.js:212
 #: core/admin-pages/entries/firewall/pages/automated/index.js:244
-#: core/modules/promos/entries/firewall/app.js:107 dist/1930.js:2
-#: dist/pages/firewall.js:2 dist/promos/firewall.js:2
+#: core/modules/promos/entries/components/stellar-sale/index.js:114
+#: core/modules/promos/entries/components/stellar-sites/index.js:76
+#: core/modules/promos/entries/dashboard/app.js:105
+#: core/modules/promos/entries/firewall/app.js:107 dist/8356.js:2
+#: dist/pages/firewall.js:2 dist/promos/components.js:2
+#: dist/promos/dashboard.js:2 dist/promos/firewall.js:2
 msgid "Dismiss"
 msgstr "Descartar"
 
 #: core/admin-pages/init.php:34 core/admin-pages/init.php:38
-#: core/modules/core/class-itsec-core-admin.php:72
+#: core/modules/core/class-itsec-core-admin.php:77
 #: core/admin-pages/entries/profile/app.js:79
 #: core/modules/core/entries/admin-notices/components/toolbar/index.js:46
 #: core/modules/core/entries/admin-notices/components/toolbar/index.js:63
@@ -7781,13 +7756,15 @@ msgid "Security"
 msgstr "Seguridad"
 
 #: core/admin-pages/init.php:35 core/modules/dashboard/labels.php:4
-#: core/admin-pages/entries/settings/pages/summary/header.js:47
-#: core/packages/ui/src/top-toolbar/index.js:79 dist/7959.js:1
-#: dist/pages/settings.js:1
+#: core/admin-pages/entries/settings/pages/summary/header.js:62
+#: core/packages/ui/src/top-toolbar/index.js:79 dist/8620.js:1
+#: dist/pages/settings.js:4
 msgid "Dashboard"
 msgstr "Escritorio"
 
-#: core/modules/core/class-itsec-core-admin.php:149
+#: core/modules/core/class-itsec-core-admin.php:154
+#: core/admin-pages/entries/settings/components/pro-tag/index.js:23
+#: dist/pages/settings.js:1
 msgid "Pro"
 msgstr "Pro"
 
@@ -7799,16 +7776,17 @@ msgstr "Registros"
 
 #: module-strings.php:247 core/admin-pages/entries/settings/pages/index.js:45
 #: core/admin-pages/entries/settings/pages/index.js:53
-#: core/admin-pages/entries/settings/utils.js:164 dist/pages/settings.js:1
+#: core/admin-pages/entries/settings/utils.js:165 dist/pages/settings.js:4
 msgid "Advanced"
 msgstr "Avanzado"
 
 #: core/admin-pages/init.php:48 core/admin-pages/page-debug.php:186
-#: core/core.php:568
+#: core/core.php:567
 #: core/admin-pages/entries/settings/components/main/index.js:41
-#: core/admin-pages/entries/settings/pages/summary/header.js:52
+#: core/admin-pages/entries/settings/pages/summary/header.js:67
 #: core/admin-pages/entries/settings/search.js:55
 #: core/modules/dashboard/entries/dashboard/components/toolbar/index.js:44
 #: dist/dashboard/dashboard.js:1 dist/pages/settings.js:1
+#: dist/pages/settings.js:4
 msgid "Settings"
 msgstr "Ajustes"

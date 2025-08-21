@@ -21,21 +21,25 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-if (!defined('DUPXABSPATH')) {
-    define('DUPXABSPATH', dirname(__FILE__));
-}
-
-$disabled_dirs = array(
-    'backups-dup-lite',
-    'wp-snapshots'
+// Prevent direct access in wordpress install
+$disabledDirs = array(
+    '/installer/dup-installer',
+    '/backups-dup-lite',
+    '/wp-snapshots'
 );
-
-if (in_array(basename(dirname(__FILE__)), $disabled_dirs)) {
-    die;
+$currentDir   = str_replace('\\', '/', __DIR__);
+foreach ($disabledDirs as $disableDir) {
+    if (strpos($currentDir, $disableDir) === (strlen($currentDir) - strlen($disableDir))) {
+        exit;
+    }
 }
 
-define('DUPX_VERSION', '1.5.9');
-define('DUPX_INIT', str_replace('\\', '/', dirname(__FILE__)));
+if (!defined('DUPXABSPATH')) {
+    define('DUPXABSPATH', __DIR__);
+}
+
+define('DUPX_VERSION', '1.5.13.1');
+define('DUPX_INIT', str_replace('\\', '/', __DIR__));
 define('DUPX_ROOT', preg_match('/^[\\\\\/]?$/', dirname(DUPX_INIT)) ? '/' : dirname(DUPX_INIT));
 
 use Duplicator\Installer\Utils\Log\Log;

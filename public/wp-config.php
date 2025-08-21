@@ -1,25 +1,11 @@
 <?php
+require_once 'db-config.php';
 
 define( 'ITSEC_ENCRYPTION_KEY', 'eGJZOHJTbllneioyYGhAbWpYKzs7ZGIjLS5TJC92dztZe2xHPmtFUjYsdSAre0crKil6e1c7OipkQCFGW34xQw==' );
 
 define('AUTOSAVE_INTERVAL', 300 ); // seconds
 define('WP_POST_REVISIONS', 10);
 
-// ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
-/** El nombre de tu base de datos de WordPress */
-if($_SERVER['SERVER_NAME']=='pc'){
-	define('WP_DEBUG', false);
-	define('DB_NAME', 'starterpoint');
-	define('DB_USER', 'root');
-	define('DB_PASSWORD', 'pass');
-	define('WP_HOME','http://pc/starterpoint');
-	define('WP_SITEURL','http://pc/starterpoint');
-}else{
-	define('WP_DEBUG', false);
-	define('DB_NAME', '');
-	define('DB_USER', '');
-	define('DB_PASSWORD', '');
-}
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');

@@ -207,7 +207,7 @@ class DUP_Log
     public static function errLog($message)
     {
         $message = 'DUP:' . $message;
-        error_log($message);
+        SnapUtil::errorLog($message);
     }
 
     public static function TraceObject($msg, $o, $log_private_members = true)
@@ -245,7 +245,7 @@ class DUP_Log
     /**
      * Gets the active trace file path
      *
-     * @return string   Returns the full path to the active trace file (i.e. dup-pro_hash.log)
+     * @return string Returns the full path to the active trace file
      */
     public static function GetTraceFilepath()
     {
@@ -280,7 +280,7 @@ class DUP_Log
     public static function error($msg, $detail = '', $behavior = Dup_ErrorBehavior::Quit)
     {
 
-        error_log($msg . ' DETAIL:' . $detail);
+        SnapUtil::errorLog($msg . ' DETAIL:' . $detail);
         $source = self::getStack(debug_backtrace());
 
         $err_msg  = "\n==================================================================================\n";
@@ -303,7 +303,7 @@ class DUP_Log
 
             case Dup_ErrorBehavior::Quit:
                 DUP_LOG::trace("quitting");
-                die("DUPLICATOR ERROR: Please see the 'Package Log' file link below.");
+                die("DUPLICATOR ERROR: Please see the 'Backup Log' file link below.");
                 break;
 
             default:

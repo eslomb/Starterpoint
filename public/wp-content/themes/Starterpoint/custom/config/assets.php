@@ -78,7 +78,7 @@ function register_custom_assets(){
     
     $starterpoint->assets->register($theme_styles, $theme_scripts);
 
-    $starterpoint->assets->remove_scripts(['jquery-migrate']);
+    // $starterpoint->assets->remove_scripts(['jquery-migrate']); // jquery es usado por plugins legacy. Remover solo si es necesario
 
     if(is_child_theme()){
 

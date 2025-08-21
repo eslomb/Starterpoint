@@ -4,8 +4,18 @@
  * ================================================ */
 
 /*Global Elements*/
-.duplicator-pages #wpcontent{padding-left: 0px; position: relative;}
-.duplicator-pages #wpbody{padding-left: 20px;}
+.duplicator-pages #wpcontent{
+    padding-left: 0px; 
+    position: relative;
+}
+.duplicator-pages #wpbody{
+    padding-left: 20px;
+}
+
+.duplicator-pages #wpbody-content {
+    padding-bottom: 200px;
+}
+
 input[type=button]{cursor:pointer;padding:5px;cursor:pointer;}
 input[type=submit]{cursor:pointer;padding:5px;cursor:pointer;}
 fieldset {border:1px solid gray; padding:0px 5px 5px 5px; }
@@ -661,6 +671,17 @@ td.dup-store-promo-area i[data-tooltip].fa-question-circle {
     #dup-admin-addons .addons-container {
         width: 100%;
     }
+}
+
+#dup-admin-addons.full .addons-container {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#dup-admin-addons.full .addon-item h5 {
+    margin-bottom: 20px;
 }
 
 #dup-admin-addons h4 {
@@ -1364,4 +1385,144 @@ td.dup-store-promo-area i[data-tooltip].fa-question-circle {
 
 .margin-right-2 {
     margin-right: 40px;
+}
+
+#dup-notice-duplicator_cross_promotion {
+    border-left-width: 1px;
+}
+
+#dup-cross-promotion > p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+#dup-cross-promotion .list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+    max-width: 1920px;
+}
+
+#dup-cross-promotion .plugin-item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+@media (max-width: 1000px) {
+    #dup-cross-promotion  .list {
+      flex-direction: column;
+    }
+}
+
+#dup-cross-promotion .plugin-item h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+#dup-cross-promotion .plugin-item img {
+    width: 100px;
+    height: 100px;
+}
+
+#dup-cross-promotion .plugin-item .details {
+    flex-grow: 2;
+}
+
+#dup-cross-promotion .plugin-item .details .addon-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-height: 1.4em;
+    height: 2.8em;
+    transition: height 0.3s ease;
+}
+
+#dup-cross-promotion:hover .plugin-item .details .addon-desc {
+    display: block;
+    overflow: none;
+    height: 7em;
+}
+
+.duplicator-multisite-notice {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.duplicator-multisite-notice .fa-exclamation-triangle {
+    display: none;
+}
+
+.duplicator-multisite-notice .dashicons-warning {
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#wpfooter .duplicator-footer-promotion {
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: #646970;
+  padding: 30px 0;
+  margin-bottom: 20px;
+}
+
+#wpfooter .duplicator-footer-promotion p {
+  font-weight: 600;
+}
+
+#wpfooter .duplicator-footer-promotion-links,
+#wpfooter .duplicator-footer-promotion-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wpfooter .duplicator-footer-promotion-links {
+  margin: 10px 0;
+  color: #646970;
+}
+
+#wpfooter .duplicator-footer-promotion-links a {
+  color: #056aab;
+}
+
+#wpfooter .duplicator-footer-promotion-links a:hover {
+  color: #04558a;
+}
+
+#wpfooter .duplicator-footer-promotion-links span {
+  color: #c3c4c7;
+  padding: 0 7px;
+}
+
+#wpfooter .duplicator-footer-promotion-social {
+  gap: 10px;
+  margin: 0;
+}
+
+#wpfooter .duplicator-footer-promotion-social li {
+  margin-bottom: 0;
+}
+
+#wpfooter .duplicator-footer-promotion-social li path {
+  color: #646970;
+}
+
+#wpfooter .duplicator-footer-promotion-social li:hover path {
+  fill: #50575e;
+}
+
+#wpfooter .duplicator-footer-promotion-social a {
+  display: block;
+  height: 16px;
 }

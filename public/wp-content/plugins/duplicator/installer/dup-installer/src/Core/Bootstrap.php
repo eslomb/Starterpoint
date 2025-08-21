@@ -20,7 +20,7 @@ class Bootstrap
 {
     const ARCHIVE_PREFIX      = 'dup-archive__';
     const ARCHIVE_EXTENSION   = '.txt';
-    const MINIMUM_PHP_VERSION = '5.6.20';
+    const MINIMUM_PHP_VERSION = '7.4';
 
     /**
      * this variable becomes false after the installer is initialized by skipping the shutdown function defined in the boot class
@@ -56,7 +56,7 @@ class Bootstrap
         }
         if (self::initPhpErrorLog(false) === false) {
             // Enable this only for debugging. Generate a log too alarmist.
-            error_log('DUPLICATOR CAN\'T CHANGE THE PATH OF PHP ERROR LOG FILE', E_USER_NOTICE);
+            SnapUtil::errorLog('DUPLICATOR CAN\'T CHANGE THE PATH OF PHP ERROR LOG FILE', E_USER_NOTICE);
         }
 
         /*
@@ -179,7 +179,6 @@ class Bootstrap
         \Requests::register_autoloader();
 
         require_once(DUPX_INIT . '/classes/config/class.conf.wp.php');
-        require_once(DUPX_INIT . '/classes/utilities/class.u.exceptions.php');
         require_once(DUPX_INIT . '/classes/utilities/class.u.php');
         require_once(DUPX_INIT . '/classes/utilities/class.u.notices.manager.php');
         require_once(DUPX_INIT . '/classes/utilities/template/class.u.template.manager.php');
@@ -243,7 +242,7 @@ class Bootstrap
         }
 
         if (function_exists('error_reporting')) {
-            error_reporting(E_ALL | E_STRICT);  // E_STRICT for PHP 5.3
+            error_reporting(E_ALL);
         }
 
         @ini_set("log_errors", 1);
@@ -252,7 +251,7 @@ class Bootstrap
         }
 
         if (!file_exists($logFile)) {
-            error_log("PHP ERROR LOG INIT");
+            SnapUtil::errorLog("PHP ERROR LOG INIT");
         }
 
         return true;
